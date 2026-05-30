@@ -337,4 +337,77 @@ export const ANNOUNCEMENTS: Announcement[] = [
 // Border / travel measures (subset of announcements, structured for the dedicated page)
 export type BorderMeasure = {
   country: string;
-  region: "非洲" | "北美" | "欧洲
+  region: "非洲" | "北美" | "欧洲" | "亚洲" | "中东";
+  measure: "入境禁令" | "增强筛查" | "航班暂停" | "健康申报";
+  status: "已实施" | "关注中" | "已解除";
+  effectiveDate: string;
+  detail: string;
+  source: string;
+};
+
+export const BORDER_MEASURES: BorderMeasure[] = [
+  { country: "美国", region: "北美", measure: "增强筛查", status: "已实施", effectiveDate: "2026-05-26", detail: "Travel Health Notice Level 3，机场主动筛查", source: "US CDC" },
+  { country: "加拿大", region: "北美", measure: "入境禁令", status: "已实施", effectiveDate: "2026-05-26", detail: "暂停疫区非公民访客签证", source: "PHAC" },
+  { country: "巴哈马", region: "北美", measure: "入境禁令", status: "已实施", effectiveDate: "2026-05-25", detail: "21 天内到访疫区旅客需特别许可", source: "卫生部" },
+  { country: "约旦", region: "中东", measure: "入境禁令", status: "已实施", effectiveDate: "2026-05-24", detail: "暂停非公民入境，本国公民 21 天监测", source: "卫生部" },
+  { country: "巴林", region: "中东", measure: "入境禁令", status: "已实施", effectiveDate: "2026-05-24", detail: "限制入境 + 强制健康申报", source: "卫生部" },
+  { country: "阿联酋 (迪拜)", region: "中东", measure: "增强筛查", status: "关注中", effectiveDate: "2026-05-27", detail: "中转枢纽，启用筛查未限流", source: "MoHAP" },
+  { country: "卡塔尔 (多哈)", region: "中东", measure: "健康申报", status: "关注中", effectiveDate: "2026-05-27", detail: "中转枢纽，健康申报未限流", source: "MoPH" },
+  { country: "新加坡 (樟宜)", region: "亚洲", measure: "增强筛查", status: "关注中", effectiveDate: "2026-05-27", detail: "中转枢纽，症状监测未限流", source: "MOH" },
+  { country: "日本", region: "亚洲", measure: "增强筛查", status: "已实施", effectiveDate: "2026-05-27", detail: "成田/羽田检疫 + 健康追踪", source: "厚生劳动省" },
+  { country: "韩国", region: "亚洲", measure: "健康申报", status: "已实施", effectiveDate: "2026-05-26", detail: "仁川机场健康申报", source: "KDCA" },
+  { country: "印度", region: "亚洲", measure: "增强筛查", status: "已实施", effectiveDate: "2026-05-26", detail: "孟买、德里、班加罗尔机场症状筛查", source: "MoHFW" },
+  { country: "中国", region: "亚洲", measure: "健康申报", status: "已实施", effectiveDate: "2026-05-20", detail: "海关总署第 65 号公告，主动健康申报", source: "海关总署" },
+  { country: "英国", region: "欧洲", measure: "健康申报", status: "已实施", effectiveDate: "2026-05-28", detail: "希思罗症状监测；建议避免非必要旅行", source: "UKHSA" },
+  { country: "法国", region: "欧洲", measure: "健康申报", status: "已实施", effectiveDate: "2026-05-27", detail: "马约特加强监测", source: "Santé publique France" },
+  { country: "乌干达", region: "非洲", measure: "入境禁令", status: "已实施", effectiveDate: "2026-05-27", detail: "关闭与 DRC 陆路边境，保留 4 个卫生检查通道", source: "卫生部" },
+  { country: "卢旺达", region: "非洲", measure: "增强筛查", status: "已实施", effectiveDate: "2026-05-25", detail: "西部边境 11 个检查点", source: "卫生部" },
+  { country: "肯尼亚", region: "非洲", measure: "增强筛查", status: "已实施", effectiveDate: "2026-05-26", detail: "JKIA 启用埃博拉筛查协议", source: "卫生部" },
+];
+
+// Information sources — 3-tier model
+export type SourceTier = 1 | 2 | 3;
+export type SourceStatus = "正常" | "延迟" | "失败";
+
+export type InfoSource = {
+  name: string;
+  category: string;
+  tier: SourceTier;
+  frequency: string;
+  lastUpdate: string;
+  status: SourceStatus;
+  url?: string;
+};
+
+export const INFO_SOURCES: InfoSource[] = [
+  // Tier 1
+  { name: "WHO Disease Outbreak News (DON)", category: "WHO", tier: 1, frequency: "每 6 小时", lastUpdate: "2026-05-30 12:00 UTC", status: "正常", url: "https://www.who.int/emergencies/disease-outbreak-news" },
+  { name: "WHO AFRO 周报", category: "WHO 区域办公室", tier: 1, frequency: "每周 + 6h 轮询", lastUpdate: "2026-05-30 12:00 UTC", status: "正常" },
+  { name: "Africa CDC 情况更新", category: "区域机构", tier: 1, frequency: "每 6 小时", lastUpdate: "2026-05-30 06:00 UTC", status: "正常" },
+  { name: "刚果（金）卫生部", category: "疫区国家", tier: 1, frequency: "每 6 小时", lastUpdate: "2026-05-30 00:00 UTC", status: "正常" },
+  { name: "乌干达卫生部", category: "疫区国家", tier: 1, frequency: "每 6 小时", lastUpdate: "2026-05-30 06:00 UTC", status: "延迟" },
+  // Tier 2
+  { name: "US CDC", category: "北美", tier: 2, frequency: "每日", lastUpdate: "2026-05-30 00:00 UTC", status: "正常" },
+  { name: "ECDC", category: "欧洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-29 16:00 UTC", status: "正常" },
+  { name: "英国 UKHSA", category: "欧洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-29 18:00 UTC", status: "正常" },
+  { name: "法国 Santé publique France", category: "欧洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-29 14:00 UTC", status: "正常" },
+  { name: "日本厚生劳动省 / NIID", category: "亚洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-30 00:00 UTC", status: "正常" },
+  { name: "韩国 KDCA", category: "亚洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-29 22:00 UTC", status: "正常" },
+  { name: "新加坡 MOH", category: "亚洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-30 02:00 UTC", status: "正常" },
+  { name: "印度 MoHFW", category: "亚洲", tier: 2, frequency: "每日", lastUpdate: "2026-05-29 18:00 UTC", status: "正常" },
+  { name: "卢旺达 / 南苏丹 / 布隆迪 / 肯尼亚 / 坦桑尼亚卫生部", category: "非洲邻国", tier: 2, frequency: "每日", lastUpdate: "2026-05-30 06:00 UTC", status: "正常" },
+  { name: "阿联酋 MoHAP / 卡塔尔 MoPH", category: "中东枢纽", tier: 2, frequency: "每日", lastUpdate: "2026-05-30 04:00 UTC", status: "正常" },
+  // Tier 3
+  { name: "UN OCHA / ReliefWeb", category: "辅助", tier: 3, frequency: "事件驱动", lastUpdate: "2026-05-28 10:00 UTC", status: "正常" },
+  { name: "MSF（无国界医生）", category: "辅助", tier: 3, frequency: "事件驱动", lastUpdate: "2026-05-27 14:00 UTC", status: "正常" },
+  { name: "IATA / ICAO", category: "辅助", tier: 3, frequency: "事件驱动", lastUpdate: "2026-05-26 12:00 UTC", status: "正常" },
+  { name: "ProMED-mail", category: "辅助", tier: 3, frequency: "事件驱动", lastUpdate: "2026-05-29 20:00 UTC", status: "正常" },
+  { name: "medRxiv / The Lancet 预印本", category: "辅助", tier: 3, frequency: "事件驱动", lastUpdate: "2026-05-28 08:00 UTC", status: "正常" },
+];
+
+export const HUB_STATUS = [
+  { hub: "新加坡 樟宜", code: "SIN", status: "增强筛查", level: "medium" as RiskLevel },
+  { hub: "迪拜 国际", code: "DXB", status: "增强筛查", level: "medium" as RiskLevel },
+  { hub: "多哈 哈马德", code: "DOH", status: "健康申报", level: "low" as RiskLevel },
+  { hub: "亚的斯亚贝巴 博莱", code: "ADD", status: "常态运营", level: "low" as RiskLevel },
+];
