@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { SiteHeader } from "../components/SiteHeader";
 
 function NotFoundComponent() {
   return (
@@ -77,11 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "国家疫情监测平台 · Epidemic Intelligence" },
+      { name: "description", content: "面向国家CDC的输入性疫情风险监测与研判平台。" },
+      { property: "og:title", content: "国家疫情监测平台" },
+      { property: "og:description", content: "面向国家CDC的输入性疫情风险监测与研判平台。" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
@@ -118,8 +118,10 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <div className="min-h-screen bg-background text-foreground">
+        <SiteHeader />
+        <Outlet />
+      </div>
     </QueryClientProvider>
   );
 }
