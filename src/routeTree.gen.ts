@@ -9,12 +9,18 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as RiskMatrixRouteImport } from './routes/risk-matrix'
 import { Route as BorderMeasuresRouteImport } from './routes/border-measures'
 import { Route as AnnouncementsRouteImport } from './routes/announcements'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ApiWhoDonRouteImport } from './routes/api/who-don'
 
+const SourcesRoute = SourcesRouteImport.update({
+  id: '/sources',
+  path: '/sources',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RiskMatrixRoute = RiskMatrixRouteImport.update({
   id: '/risk-matrix',
   path: '/risk-matrix',
@@ -46,6 +52,7 @@ export interface FileRoutesByFullPath {
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
   '/risk-matrix': typeof RiskMatrixRoute
+  '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesByTo {
@@ -53,6 +60,7 @@ export interface FileRoutesByTo {
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
   '/risk-matrix': typeof RiskMatrixRoute
+  '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesById {
@@ -61,6 +69,7 @@ export interface FileRoutesById {
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
   '/risk-matrix': typeof RiskMatrixRoute
+  '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRouteTypes {
@@ -70,6 +79,7 @@ export interface FileRouteTypes {
     | '/announcements'
     | '/border-measures'
     | '/risk-matrix'
+    | '/sources'
     | '/api/who-don'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -77,6 +87,7 @@ export interface FileRouteTypes {
     | '/announcements'
     | '/border-measures'
     | '/risk-matrix'
+    | '/sources'
     | '/api/who-don'
   id:
     | '__root__'
@@ -84,6 +95,7 @@ export interface FileRouteTypes {
     | '/announcements'
     | '/border-measures'
     | '/risk-matrix'
+    | '/sources'
     | '/api/who-don'
   fileRoutesById: FileRoutesById
 }
@@ -92,11 +104,19 @@ export interface RootRouteChildren {
   AnnouncementsRoute: typeof AnnouncementsRoute
   BorderMeasuresRoute: typeof BorderMeasuresRoute
   RiskMatrixRoute: typeof RiskMatrixRoute
+  SourcesRoute: typeof SourcesRoute
   ApiWhoDonRoute: typeof ApiWhoDonRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/sources': {
+      id: '/sources'
+      path: '/sources'
+      fullPath: '/sources'
+      preLoaderRoute: typeof SourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/risk-matrix': {
       id: '/risk-matrix'
       path: '/risk-matrix'
@@ -140,6 +160,7 @@ const rootRouteChildren: RootRouteChildren = {
   AnnouncementsRoute: AnnouncementsRoute,
   BorderMeasuresRoute: BorderMeasuresRoute,
   RiskMatrixRoute: RiskMatrixRoute,
+  SourcesRoute: SourcesRoute,
   ApiWhoDonRoute: ApiWhoDonRoute,
 }
 export const routeTree = rootRouteImport
