@@ -9,9 +9,15 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as RiskMatrixRouteImport } from './routes/risk-matrix'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ApiWhoDonRouteImport } from './routes/api/who-don'
 
+const RiskMatrixRoute = RiskMatrixRouteImport.update({
+  id: '/risk-matrix',
+  path: '/risk-matrix',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -25,32 +31,43 @@ const ApiWhoDonRoute = ApiWhoDonRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/api/who-don'
+  fullPaths: '/' | '/risk-matrix' | '/api/who-don'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/api/who-don'
-  id: '__root__' | '/' | '/api/who-don'
+  to: '/' | '/risk-matrix' | '/api/who-don'
+  id: '__root__' | '/' | '/risk-matrix' | '/api/who-don'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  RiskMatrixRoute: typeof RiskMatrixRoute
   ApiWhoDonRoute: typeof ApiWhoDonRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/risk-matrix': {
+      id: '/risk-matrix'
+      path: '/risk-matrix'
+      fullPath: '/risk-matrix'
+      preLoaderRoute: typeof RiskMatrixRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -70,8 +87,19 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  RiskMatrixRoute: RiskMatrixRoute,
   ApiWhoDonRoute: ApiWhoDonRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
