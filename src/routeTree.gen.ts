@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as RiskMatrixRouteImport } from './routes/risk-matrix'
+import { Route as AnnouncementsRouteImport } from './routes/announcements'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ApiWhoDonRouteImport } from './routes/api/who-don'
 
 const RiskMatrixRoute = RiskMatrixRouteImport.update({
   id: '/risk-matrix',
   path: '/risk-matrix',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AnnouncementsRoute = AnnouncementsRouteImport.update({
+  id: '/announcements',
+  path: '/announcements',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -31,30 +37,34 @@ const ApiWhoDonRoute = ApiWhoDonRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/announcements': typeof AnnouncementsRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/announcements': typeof AnnouncementsRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/announcements': typeof AnnouncementsRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/api/who-don': typeof ApiWhoDonRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/risk-matrix' | '/api/who-don'
+  fullPaths: '/' | '/announcements' | '/risk-matrix' | '/api/who-don'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/risk-matrix' | '/api/who-don'
-  id: '__root__' | '/' | '/risk-matrix' | '/api/who-don'
+  to: '/' | '/announcements' | '/risk-matrix' | '/api/who-don'
+  id: '__root__' | '/' | '/announcements' | '/risk-matrix' | '/api/who-don'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AnnouncementsRoute: typeof AnnouncementsRoute
   RiskMatrixRoute: typeof RiskMatrixRoute
   ApiWhoDonRoute: typeof ApiWhoDonRoute
 }
@@ -66,6 +76,13 @@ declare module '@tanstack/react-router' {
       path: '/risk-matrix'
       fullPath: '/risk-matrix'
       preLoaderRoute: typeof RiskMatrixRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/announcements': {
+      id: '/announcements'
+      path: '/announcements'
+      fullPath: '/announcements'
+      preLoaderRoute: typeof AnnouncementsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -87,6 +104,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AnnouncementsRoute: AnnouncementsRoute,
   RiskMatrixRoute: RiskMatrixRoute,
   ApiWhoDonRoute: ApiWhoDonRoute,
 }
