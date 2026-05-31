@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Activity, AlertTriangle, BarChart3, Globe2, Megaphone, Plane, Radio } from "lucide-react";
+import { Activity, AlertTriangle, BarChart3, FileText, Globe2, Megaphone, Plane, Radio } from "lucide-react";
 import { GLOBAL_RISK, OUTBREAK } from "@/data/seed";
 import { RiskBadge } from "./RiskBadge";
 import { cn } from "@/lib/utils";
@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 const NAV = [
   { to: "/", label: "总览", icon: Activity },
   { to: "/epidemic-data", label: "疫情数据", icon: BarChart3 },
+  { to: "/daily-brief", label: "每日简报", icon: FileText },
   { to: "/risk-matrix", label: "风险研判", icon: AlertTriangle },
   { to: "/announcements", label: "公告汇总", icon: Megaphone },
   { to: "/border-measures", label: "边境措施", icon: Plane },
