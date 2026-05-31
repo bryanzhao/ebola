@@ -1,9 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ANNOUNCEMENTS, KPIS, OUTBREAK, RISK_DIMENSIONS, TRIGGERS } from "@/data/seed";
+import { ANNOUNCEMENTS, COUNTRY_OVERVIEW, KPIS, OUTBREAK } from "@/data/seed";
 import { KpiCard } from "@/components/KpiCard";
 import { PageShell } from "@/components/PageShell";
-import { RiskBadge } from "@/components/RiskBadge";
-import { CheckCircle2, ChevronRight, CircleAlert, Clock } from "lucide-react";
+import { ChevronRight, Clock } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -37,26 +36,41 @@ function Dashboard() {
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-3">
-        {/* Risk dimensions */}
+        {/* Per-country overview */}
         <section className="lg:col-span-2 rounded-md border border-border bg-card">
           <header className="flex items-center justify-between border-b border-border px-5 py-3">
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-foreground">四维风险研判</h2>
-            <Link to="/risk-matrix" className="inline-flex items-center text-xs text-primary hover:underline">
-              查看完整矩阵 <ChevronRight className="h-3 w-3" />
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-foreground">各国疫情概览</h2>
+            <Link to="/epidemic-data" className="inline-flex items-center text-xs text-primary hover:underline">
+              查看完整数据 <ChevronRight className="h-3 w-3" />
             </Link>
           </header>
-          <div className="divide-y divide-border">
-            {RISK_DIMENSIONS.map((d) => (
-              <div key={d.key} className="grid grid-cols-[1fr_auto] gap-3 px-5 py-4">
-                <div>
-                  <div className="flex items-center gap-2">
-                    <h3 className="text-sm font-semibold text-foreground">{d.name}</h3>
-                    <RiskBadge level={d.level} />
-                  </div>
-                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{d.currentState}</p>
-                </div>
-              </div>
-            ))}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="bg-surface text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                <tr>
+                  <th className="px-4 py-2 text-left">国家</th>
+                  <th className="px-4 py-2 text-left">日期</th>
+                  <th className="px-4 py-2 text-right">累计确诊</th>
+                  <th className="px-4 py-2 text-right">新增确诊</th>
+                  <th className="px-4 py-2 text-right">累计死亡</th>
+                  <th className="px-4 py-2 text-right">新增死亡</th>
+                  <th className="px-4 py-2 text-right">CFR</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {COUNTRY_OVERVIEW.map((r) => (
+                  <tr key={r.country}>
+                    <td className="px-4 py-2 font-medium text-foreground">{r.country}</td>
+                    <td className="px-4 py-2 text-muted-foreground tabular-nums">{r.date}</td>
+                    <td className="px-4 py-2 text-right tabular-nums">{r.cumCases}</td>
+                    <td className="px-4 py-2 text-right tabular-nums text-destructive">+{r.newCases}</td>
+                    <td className="px-4 py-2 text-right tabular-nums">{r.cumDeaths}</td>
+                    <td className="px-4 py-2 text-right tabular-nums text-destructive">+{r.newDeaths}</td>
+                    <td className="px-4 py-2 text-right tabular-nums">{r.cfr}%</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </section>
 
@@ -88,38 +102,6 @@ function Dashboard() {
           </div>
         </aside>
       </div>
-
-      {/* Triggers */}
-      <section className="mt-6 rounded-md border border-border bg-card">
-        <header className="flex items-center justify-between border-b border-border px-5 py-3">
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-foreground">风险升级触发条件</h2>
-          <span className="text-xs text-muted-foreground">
-            已触发 {TRIGGERS.filter((t) => t.triggered).length} / {TRIGGERS.length}
-          </span>
-        </header>
-        <ul className="divide-y divide-border">
-          {TRIGGERS.map((t) => (
-            <li key={t.id} className="flex items-start gap-3 px-5 py-3">
-              {t.triggered ? (
-                <CircleAlert className="mt-0.5 h-4 w-4 text-destructive shrink-0" />
-              ) : (
-                <CheckCircle2 className="mt-0.5 h-4 w-4 text-success shrink-0" />
-              )}
-              <div className="flex-1">
-                <div className="text-sm text-foreground">{t.text}</div>
-                <div className="text-xs text-muted-foreground">{t.note}</div>
-              </div>
-              <span
-                className={`text-[10px] font-semibold uppercase tracking-widest ${
-                  t.triggered ? "text-destructive" : "text-muted-foreground"
-                }`}
-              >
-                {t.triggered ? "已触发" : "未触发"}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
 
       {/* Recent events */}
       <section className="mt-6 rounded-md border border-border bg-card">

@@ -411,3 +411,64 @@ export const HUB_STATUS = [
   { hub: "多哈 哈马德", code: "DOH", status: "健康申报", level: "low" as RiskLevel },
   { hub: "亚的斯亚贝巴 博莱", code: "ADD", status: "常态运营", level: "low" as RiskLevel },
 ];
+
+// ============================================================
+// 各国每日疫情数据 (weekly snapshots since outbreak start)
+// ============================================================
+export type CountryDaily = {
+  country: string;
+  iso: string;
+  date: string;          // ISO date
+  cumCases: number;
+  newCases: number;
+  cumDeaths: number;
+  newDeaths: number;
+  cfr: number;           // %
+};
+
+function cfr(d: number, c: number) {
+  return c === 0 ? 0 : Math.round((d / c) * 1000) / 10;
+}
+
+const DRC_SERIES: Array<[string, number, number]> = [
+  ["2026-04-12", 2, 0],
+  ["2026-04-19", 8, 1],
+  ["2026-04-26", 22, 3],
+  ["2026-05-03", 45, 6],
+  ["2026-05-10", 72, 10],
+  ["2026-05-17", 95, 13],
+  ["2026-05-24", 121, 17],
+  ["2026-05-30", 133, 19],
+];
+const UGA_SERIES: Array<[string, number, number]> = [
+  ["2026-05-15", 1, 0],
+  ["2026-05-22", 4, 0],
+  ["2026-05-29", 9, 1],
+  ["2026-05-30", 9, 1],
+];
+
+function expand(country: string, iso: string, series: Array<[string, number, number]>): CountryDaily[] {
+  return series.map(([date, cumCases, cumDeaths], i) => {
+    const prev = series[i - 1];
+    const newCases = cumCases - (prev?.[1] ?? 0);
+    const newDeaths = cumDeaths - (prev?.[2] ?? 0);
+    return { country, iso, date, cumCases, newCases, cumDeaths, newDeaths, cfr: cfr(cumDeaths, cumCases) };
+  });
+}
+
+export const COUNTRY_DAILY: CountryDaily[] = [
+  ...expand("刚果（金）", "COD", DRC_SERIES),
+  ...expand("乌干达", "UGA", UGA_SERIES),
+];
+
+// Latest snapshot per country (for overview tables / cards)
+export const COUNTRY_OVERVIEW: CountryDaily[] = Object.values(
+  COUNTRY_DAILY.reduce<Record<string, CountryDaily>>((acc, row) => {
+    const prev = acc[row.country];
+    if (!prev || row.date > prev.date) acc[row.country] = row;
+    return acc;
+  }, {}),
+).sort((a, b) => b.cumCases - a.cumCases);
+
+// 重点国家概览（用于"疫情数据"页顶部卡片）
+export const FOCUS_COUNTRIES = ["刚果（金）", "乌干达"] as const;

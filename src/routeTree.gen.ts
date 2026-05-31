@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as RiskMatrixRouteImport } from './routes/risk-matrix'
+import { Route as EpidemicDataRouteImport } from './routes/epidemic-data'
 import { Route as BorderMeasuresRouteImport } from './routes/border-measures'
 import { Route as AnnouncementsRouteImport } from './routes/announcements'
 import { Route as IndexRouteImport } from './routes/index'
@@ -24,6 +25,11 @@ const SourcesRoute = SourcesRouteImport.update({
 const RiskMatrixRoute = RiskMatrixRouteImport.update({
   id: '/risk-matrix',
   path: '/risk-matrix',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EpidemicDataRoute = EpidemicDataRouteImport.update({
+  id: '/epidemic-data',
+  path: '/epidemic-data',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BorderMeasuresRoute = BorderMeasuresRouteImport.update({
@@ -51,6 +57,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
@@ -59,6 +66,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
@@ -68,6 +76,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
   '/api/who-don': typeof ApiWhoDonRoute
@@ -78,6 +87,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
     | '/api/who-don'
@@ -86,6 +96,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
     | '/api/who-don'
@@ -94,6 +105,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
     | '/api/who-don'
@@ -103,6 +115,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AnnouncementsRoute: typeof AnnouncementsRoute
   BorderMeasuresRoute: typeof BorderMeasuresRoute
+  EpidemicDataRoute: typeof EpidemicDataRoute
   RiskMatrixRoute: typeof RiskMatrixRoute
   SourcesRoute: typeof SourcesRoute
   ApiWhoDonRoute: typeof ApiWhoDonRoute
@@ -122,6 +135,13 @@ declare module '@tanstack/react-router' {
       path: '/risk-matrix'
       fullPath: '/risk-matrix'
       preLoaderRoute: typeof RiskMatrixRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/epidemic-data': {
+      id: '/epidemic-data'
+      path: '/epidemic-data'
+      fullPath: '/epidemic-data'
+      preLoaderRoute: typeof EpidemicDataRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/border-measures': {
@@ -159,6 +179,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AnnouncementsRoute: AnnouncementsRoute,
   BorderMeasuresRoute: BorderMeasuresRoute,
+  EpidemicDataRoute: EpidemicDataRoute,
   RiskMatrixRoute: RiskMatrixRoute,
   SourcesRoute: SourcesRoute,
   ApiWhoDonRoute: ApiWhoDonRoute,
