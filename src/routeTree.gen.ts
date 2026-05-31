@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as RiskMatrixRouteImport } from './routes/risk-matrix'
 import { Route as EpidemicDataRouteImport } from './routes/epidemic-data'
+import { Route as DailyBriefRouteImport } from './routes/daily-brief'
 import { Route as BorderMeasuresRouteImport } from './routes/border-measures'
 import { Route as AnnouncementsRouteImport } from './routes/announcements'
 import { Route as IndexRouteImport } from './routes/index'
@@ -30,6 +31,11 @@ const RiskMatrixRoute = RiskMatrixRouteImport.update({
 const EpidemicDataRoute = EpidemicDataRouteImport.update({
   id: '/epidemic-data',
   path: '/epidemic-data',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DailyBriefRoute = DailyBriefRouteImport.update({
+  id: '/daily-brief',
+  path: '/daily-brief',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BorderMeasuresRoute = BorderMeasuresRouteImport.update({
@@ -57,6 +63,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/daily-brief': typeof DailyBriefRoute
   '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
@@ -66,6 +73,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/daily-brief': typeof DailyBriefRoute
   '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
@@ -76,6 +84,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/announcements': typeof AnnouncementsRoute
   '/border-measures': typeof BorderMeasuresRoute
+  '/daily-brief': typeof DailyBriefRoute
   '/epidemic-data': typeof EpidemicDataRoute
   '/risk-matrix': typeof RiskMatrixRoute
   '/sources': typeof SourcesRoute
@@ -87,6 +96,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/daily-brief'
     | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
@@ -96,6 +106,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/daily-brief'
     | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
@@ -105,6 +116,7 @@ export interface FileRouteTypes {
     | '/'
     | '/announcements'
     | '/border-measures'
+    | '/daily-brief'
     | '/epidemic-data'
     | '/risk-matrix'
     | '/sources'
@@ -115,6 +127,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AnnouncementsRoute: typeof AnnouncementsRoute
   BorderMeasuresRoute: typeof BorderMeasuresRoute
+  DailyBriefRoute: typeof DailyBriefRoute
   EpidemicDataRoute: typeof EpidemicDataRoute
   RiskMatrixRoute: typeof RiskMatrixRoute
   SourcesRoute: typeof SourcesRoute
@@ -142,6 +155,13 @@ declare module '@tanstack/react-router' {
       path: '/epidemic-data'
       fullPath: '/epidemic-data'
       preLoaderRoute: typeof EpidemicDataRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/daily-brief': {
+      id: '/daily-brief'
+      path: '/daily-brief'
+      fullPath: '/daily-brief'
+      preLoaderRoute: typeof DailyBriefRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/border-measures': {
@@ -179,6 +199,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AnnouncementsRoute: AnnouncementsRoute,
   BorderMeasuresRoute: BorderMeasuresRoute,
+  DailyBriefRoute: DailyBriefRoute,
   EpidemicDataRoute: EpidemicDataRoute,
   RiskMatrixRoute: RiskMatrixRoute,
   SourcesRoute: SourcesRoute,
