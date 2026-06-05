@@ -80,11 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "国家疫情监测平台 · Epidemic Intelligence" },
       { name: "description", content: "面向国家CDC的输入性疫情风险监测与研判平台。" },
-      { property: "og:title", content: "国家疫情监测平台" },
+      { property: "og:title", content: "国家疫情监测平台 · Epidemic Intelligence" },
       { property: "og:description", content: "面向国家CDC的输入性疫情风险监测与研判平台。" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "国家疫情监测平台 · Epidemic Intelligence" },
+      { name: "twitter:description", content: "面向国家CDC的输入性疫情风险监测与研判平台。" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13c7b821-f254-4233-a8e7-1c09c5cb66ee/id-preview-86f40e63--f8fcd856-edeb-4171-aa86-46405b629274.lovable.app-1780221198966.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13c7b821-f254-4233-a8e7-1c09c5cb66ee/id-preview-86f40e63--f8fcd856-edeb-4171-aa86-46405b629274.lovable.app-1780221198966.png" },
     ],
     links: [
       {
