@@ -120,7 +120,7 @@ function DailyBriefPage() {
             <span>第 {issue} 期</span>
           </div>
           <h1 className="mt-2 text-2xl font-bold tracking-tight text-primary">
-            {OUTBREAK.pathogen} 疫情每日简报
+            埃博拉疫情每日简报
           </h1>
           <div className="mt-1 text-sm text-muted-foreground">
             报告日期：{SNAPSHOT} · 数据截止：{SNAPSHOT} 12:00 UTC · 监测区域：{OUTBREAK.region}
