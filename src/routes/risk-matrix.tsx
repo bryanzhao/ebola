@@ -25,8 +25,8 @@ function RiskMatrixPage() {
         <table className="w-full text-sm">
           <thead className="bg-surface text-xs uppercase tracking-wider text-muted-foreground">
             <tr>
-              <th className="px-5 py-3 text-left font-medium w-44">维度</th>
-              <th className="px-5 py-3 text-left font-medium w-24">当前等级</th>
+              <th className="whitespace-nowrap px-5 py-3 text-left font-medium">维度</th>
+              <th className="whitespace-nowrap px-5 py-3 text-left font-medium">当前等级</th>
               <th className="px-5 py-3 text-left font-medium">关键监测指标</th>
               <th className="px-5 py-3 text-left font-medium">高风险信号</th>
               <th className="px-5 py-3 text-left font-medium">当前状态</th>
@@ -35,8 +35,8 @@ function RiskMatrixPage() {
           <tbody className="divide-y divide-border">
             {RISK_DIMENSIONS.map((d) => (
               <tr key={d.key} className="align-top">
-                <td className="px-5 py-4 font-semibold text-foreground">{d.name}</td>
-                <td className="px-5 py-4"><RiskBadge level={d.level} /></td>
+                <td className="whitespace-nowrap px-5 py-4 font-semibold text-foreground">{d.name}</td>
+                <td className="whitespace-nowrap px-5 py-4"><RiskBadge level={d.level} /></td>
                 <td className="px-5 py-4 text-muted-foreground">{d.indicators}</td>
                 <td className="px-5 py-4 text-muted-foreground">{d.highSignal}</td>
                 <td className="px-5 py-4 text-foreground">{d.currentState}</td>
@@ -59,7 +59,7 @@ function RiskMatrixPage() {
               ) : (
                 <CheckCircle2 className="mt-0.5 h-4 w-4 text-success shrink-0" />
               )}
-              <div className="flex-1">
+              <div className="min-w-0 flex-1">
                 <div className="text-sm text-foreground">
                   <span className="font-mono text-xs text-muted-foreground mr-2">#{t.id}</span>
                   {t.text}
@@ -67,7 +67,7 @@ function RiskMatrixPage() {
                 <div className="text-xs text-muted-foreground mt-0.5">{t.note}</div>
               </div>
               <span
-                className={`text-[10px] font-semibold uppercase tracking-widest ${
+                className={`shrink-0 whitespace-nowrap text-[10px] font-semibold uppercase tracking-widest ${
                   t.triggered ? "text-destructive" : "text-muted-foreground"
                 }`}
               >
