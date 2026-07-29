@@ -1,0 +1,133 @@
+{
+  "outbreak": {
+    "pathogen": "Bundibugyo ebolavirus",
+    "shortName": "BDBV / Ebola",
+    "region": "DRC / Uganda",
+    "startDate": "2026-04-12",
+    "snapshotDate": "2026-07-28",
+    "summary": "刚果（金）东北部Bundibugyo型埃博拉疫情自4月爆发以来持续恶化，截至7月26日累计确诊3,262例、死亡1,437例，已波及5省48个卫生区，为有记录以来第三大埃博拉疫情。WHO于5月17日宣布PHEIC。乌干达累计20例确诊、2例死亡，自6月21日起无新增病例，7月16日启动42天强化监测倒计时。全球首个Bundibugyo疫苗I期试验（ChAdOx1 BDBV）于7月13日在牛津启动；WHO于7月2日启动MBP134+瑞德西韦药物试验。"
+  },
+  "globalRisk": "high",
+  "kpis": [
+    {
+      "label": "确诊病例",
+      "value": 3282,
+      "unit": "例",
+      "deltaWeek": 789,
+      "source": "ECDC 2026-07-28; WHO DON613"
+    },
+    {
+      "label": "确诊死亡",
+      "value": 1439,
+      "unit": "例",
+      "deltaWeek": 438,
+      "source": "ECDC 2026-07-28"
+    },
+    {
+      "label": "病死率 (CFR)",
+      "value": 43.8,
+      "unit": "%",
+      "deltaWeek": 3.7,
+      "source": "估算 (确诊)"
+    },
+    {
+      "label": "受影响国家",
+      "value": 2,
+      "unit": "国",
+      "deltaWeek": 0,
+      "source": "DRC, Uganda"
+    }
+  ],
+  "riskDimensions": [
+    {
+      "key": "severity",
+      "name": "疫情严重度",
+      "level": "high",
+      "indicators": "确诊数、死亡数、CFR、医护人员感染比例",
+      "highSignal": "CFR > 25%；医护人员感染 > 10 例；周增长率 > 50%",
+      "currentState": "确诊CFR 44%；119名医护人员感染、36人死亡；周新增约789例，传播持续加速；已为有记录以来第三大埃博拉疫情"
+    },
+    {
+      "key": "spread",
+      "name": "地理扩散度",
+      "level": "high",
+      "indicators": "受影响国家数、新增省份/卫生区数、城市传播证据",
+      "highSignal": "首次出现首都病例；新增受影响国家；跨洲传播",
+      "currentState": "刚果（金）5省48卫生区受影响；Kisangani（Tshopo省会，主要交通枢纽）出现病例；法国报告1例输入（已康复）；2名美国公民经德国医疗撤离"
+    },
+    {
+      "key": "border",
+      "name": "边境管控力度",
+      "level": "high",
+      "indicators": "实施入境限制的国家数；关键中转枢纽筛查政策",
+      "highSignal": "新加坡/迪拜/多哈/亚的斯亚贝巴等枢纽加强管控；WHO IHR临时建议升级",
+      "currentState": "美国7月20日起对DRC/Uganda/南苏丹实施全面入境禁令；加拿大强化禁令；WHO不建议旅行限制但多国已单方面实施禁令；新加坡、迪拜、多哈枢纽维持增强筛查未限流"
+    },
+    {
+      "key": "mcm",
+      "name": "对策可用性",
+      "level": "high",
+      "indicators": "获批疫苗/药物数量、临床试验阶段、全球储备量",
+      "highSignal": "零获批疫苗；临床试验距完成 > 6个月；全球储备 < 1万剂",
+      "currentState": "全球首个BDBV疫苗I期试验（ChAdOx1 BDBV）7月13日牛津启动，SII已储备约62万剂；WHO 7月2日启动MBP134+瑞德西韦药物试验；从PHEIC宣布到疫苗试验启动仅57天；零获批疫苗与药物"
+    }
+  ],
+  "triggers": [
+    {
+      "id": 1,
+      "text": "疫情扩散至新国家（尤其东非、南非）",
+      "triggered": true,
+      "note": "已扩散至乌干达 (2026-05-15)；法国报告1例输入 (2026-06-24)；2名美国公民经德国医疗撤离"
+    },
+    {
+      "id": 2,
+      "text": "任一国家确诊/死亡周增长率超过 100%",
+      "triggered": false,
+      "note": "当前DRC最新周增长率约 32%"
+    },
+    {
+      "id": 3,
+      "text": "中国赴非主要中转枢纽实施入境限制",
+      "triggered": false,
+      "note": "迪拜/多哈/新加坡/亚的斯亚贝巴维持增强筛查，未对中转旅客限流"
+    },
+    {
+      "id": 4,
+      "text": "WHO 宣布 PHEIC 或升级风险等级",
+      "triggered": true,
+      "note": "WHO于2026-05-17宣布PHEIC；IHR紧急委员会于5月22日发布临时建议；6月6日WHO完成第三次风险重评估"
+    },
+    {
+      "id": 5,
+      "text": "出现输入性病例至非疫区亚洲国家",
+      "triggered": false,
+      "note": "无亚洲国家报告输入病例"
+    }
+  ],
+  "hubStatus": [
+    {
+      "hub": "新加坡 樟宜",
+      "code": "SIN",
+      "status": "增强筛查",
+      "level": "medium"
+    },
+    {
+      "hub": "迪拜 国际",
+      "code": "DXB",
+      "status": "增强筛查",
+      "level": "medium"
+    },
+    {
+      "hub": "多哈 哈马德",
+      "code": "DOH",
+      "status": "健康申报",
+      "level": "low"
+    },
+    {
+      "hub": "亚的斯亚贝巴 博莱",
+      "code": "ADD",
+      "status": "增强筛查",
+      "level": "medium"
+    }
+  ]
+}

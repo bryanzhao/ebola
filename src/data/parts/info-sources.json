@@ -1,0 +1,173 @@
+{
+  "infoSources": [
+    {
+      "name": "WHO Disease Outbreak News (DON)",
+      "category": "WHO",
+      "tier": 1,
+      "frequency": "每6小时",
+      "lastUpdate": "2026-07-28 12:00 UTC",
+      "status": "正常",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news"
+    },
+    {
+      "name": "WHO AFRO 周报",
+      "category": "WHO 区域办公室",
+      "tier": 1,
+      "frequency": "每周 + 6h轮询",
+      "lastUpdate": "2026-07-28 12:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "Africa CDC 情况更新",
+      "category": "区域机构",
+      "tier": 1,
+      "frequency": "每6小时",
+      "lastUpdate": "2026-07-28 06:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "刚果（金）卫生部",
+      "category": "疫区国家",
+      "tier": 1,
+      "frequency": "每6小时",
+      "lastUpdate": "2026-07-28 00:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "乌干达卫生部",
+      "category": "疫区国家",
+      "tier": 1,
+      "frequency": "每6小时",
+      "lastUpdate": "2026-07-28 06:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "US CDC",
+      "category": "北美",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 00:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "ECDC",
+      "category": "欧洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 16:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "英国 UKHSA",
+      "category": "欧洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 18:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "法国 Santé publique France",
+      "category": "欧洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 14:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "德国 Bundesgesundheitsministerium",
+      "category": "欧洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 10:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "日本厚生劳动省 / NIID",
+      "category": "亚洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 00:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "韩国 KDCA",
+      "category": "亚洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-27 22:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "新加坡 MOH",
+      "category": "亚洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 02:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "印度 MoHFW",
+      "category": "亚洲",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-27 18:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "卢旺达/南苏丹/布隆迪/肯尼亚/坦桑尼亚卫生部",
+      "category": "非洲邻国",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 06:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "阿联酋 MoHAP / 卡塔尔 MoPH",
+      "category": "中东枢纽",
+      "tier": 2,
+      "frequency": "每日",
+      "lastUpdate": "2026-07-28 04:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "UN OCHA / ReliefWeb",
+      "category": "辅助",
+      "tier": 3,
+      "frequency": "事件驱动",
+      "lastUpdate": "2026-07-27 10:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "MSF（无国界医生）",
+      "category": "辅助",
+      "tier": 3,
+      "frequency": "事件驱动",
+      "lastUpdate": "2026-07-27 14:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "IATA / ICAO",
+      "category": "辅助",
+      "tier": 3,
+      "frequency": "事件驱动",
+      "lastUpdate": "2026-07-26 12:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "ProMED-mail",
+      "category": "辅助",
+      "tier": 3,
+      "frequency": "事件驱动",
+      "lastUpdate": "2026-07-28 20:00 UTC",
+      "status": "正常"
+    },
+    {
+      "name": "medRxiv/Lancet预印本/CEPI/Gavi",
+      "category": "辅助",
+      "tier": 3,
+      "frequency": "事件驱动",
+      "lastUpdate": "2026-07-28 08:00 UTC",
+      "status": "正常"
+    }
+  ]
+}

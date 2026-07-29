@@ -1,0 +1,175 @@
+{
+  "borderMeasures": [
+    {
+      "country": "美国",
+      "region": "北美",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-07-20",
+      "detail": "暂停来自DRC、乌干达、南苏丹的非公民及21天内到访者入境",
+      "source": "US CDC / White House"
+    },
+    {
+      "country": "加拿大",
+      "region": "北美",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-07-20",
+      "detail": "全面禁止21天内到访DRC的人员入境；乌干达和南苏丹特定限制",
+      "source": "PHAC"
+    },
+    {
+      "country": "巴哈马",
+      "region": "北美",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-05-25",
+      "detail": "21天内到访疫区旅客需特别许可",
+      "source": "卫生部"
+    },
+    {
+      "country": "约旦",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-05-24",
+      "detail": "暂停非公民入境，本国公民21天监测",
+      "source": "卫生部"
+    },
+    {
+      "country": "巴林",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-05-24",
+      "detail": "限制入境 + 强制健康申报",
+      "source": "卫生部"
+    },
+    {
+      "country": "阿联酋 (迪拜)",
+      "region": "中东",
+      "measure": "增强筛查",
+      "status": "关注中",
+      "effectiveDate": "2026-05-27",
+      "detail": "中转枢纽，启用筛查未限流",
+      "source": "MoHAP"
+    },
+    {
+      "country": "卡塔尔 (多哈)",
+      "region": "中东",
+      "measure": "健康申报",
+      "status": "关注中",
+      "effectiveDate": "2026-05-27",
+      "detail": "中转枢纽，健康申报未限流",
+      "source": "MoPH"
+    },
+    {
+      "country": "新加坡 (樟宜)",
+      "region": "亚洲",
+      "measure": "增强筛查",
+      "status": "关注中",
+      "effectiveDate": "2026-05-27",
+      "detail": "中转枢纽，症状监测未限流",
+      "source": "MOH"
+    },
+    {
+      "country": "日本",
+      "region": "亚洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-05-27",
+      "detail": "成田/羽田检疫 + 健康追踪",
+      "source": "厚生劳动省"
+    },
+    {
+      "country": "韩国",
+      "region": "亚洲",
+      "measure": "健康申报",
+      "status": "已实施",
+      "effectiveDate": "2026-05-26",
+      "detail": "仁川机场健康申报",
+      "source": "KDCA"
+    },
+    {
+      "country": "印度",
+      "region": "亚洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-05-26",
+      "detail": "孟买、德里、班加罗尔机场症状筛查",
+      "source": "MoHFW"
+    },
+    {
+      "country": "中国",
+      "region": "亚洲",
+      "measure": "健康申报",
+      "status": "已实施",
+      "effectiveDate": "2026-05-20",
+      "detail": "海关总署第65号公告，主动健康申报",
+      "source": "海关总署"
+    },
+    {
+      "country": "英国",
+      "region": "欧洲",
+      "measure": "健康申报",
+      "status": "已实施",
+      "effectiveDate": "2026-05-28",
+      "detail": "UKHSA评定对英国风险为低；希思罗症状监测；建议避免非必要旅行",
+      "source": "UKHSA"
+    },
+    {
+      "country": "法国",
+      "region": "欧洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-06-24",
+      "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+      "source": "Santé publique France"
+    },
+    {
+      "country": "德国",
+      "region": "欧洲",
+      "measure": "增强筛查",
+      "status": "关注中",
+      "effectiveDate": "2026-07-13",
+      "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+      "source": "Bundesgesundheitsministerium"
+    },
+    {
+      "country": "乌干达",
+      "region": "非洲",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-05-27",
+      "detail": "关闭与DRC陆路边境，保留4个卫生检查通道；7月16日启动42天清零倒计时",
+      "source": "卫生部"
+    },
+    {
+      "country": "卢旺达",
+      "region": "非洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-05-25",
+      "detail": "西部边境11个检查点",
+      "source": "卫生部"
+    },
+    {
+      "country": "肯尼亚",
+      "region": "非洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-05-26",
+      "detail": "JKIA启用埃博拉筛查协议",
+      "source": "卫生部"
+    },
+    {
+      "country": "南苏丹",
+      "region": "非洲",
+      "measure": "增强筛查",
+      "status": "关注中",
+      "effectiveDate": "2026-07-01",
+      "detail": "边境流动人口频繁，国际医疗队支持80个设施强化防备",
+      "source": "ReliefWeb / IMC"
+    }
+  ]
+}
