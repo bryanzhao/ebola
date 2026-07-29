@@ -1,6 +1,25 @@
-// 数据仅从 src/data/dataset.json 加载。请勿在此文件写入内容值。
-// 修改 dataset.json 后，Vite 会自动 HMR 刷新页面。
-import dataset from "./dataset.json";
+// 数据仅从 src/data/parts/*.json 加载。请勿在此文件写入内容值。
+// 修改任意 part JSON 后，Vite 会自动 HMR 刷新页面。
+//
+// 拆分说明：
+//   parts/outbreak.json      基础信息 / 全球风险灯 / KPI / 研判 / 触发条件 / 枢纽
+//   parts/epidemic.json      各国每日累计 + 重点国家
+//   parts/announcements.json 公告时间线
+//   parts/border-measures.json 边境与旅行措施
+//   parts/info-sources.json  三层信息源
+import outbreakPart from "./parts/outbreak.json";
+import epidemicPart from "./parts/epidemic.json";
+import announcementsPart from "./parts/announcements.json";
+import borderPart from "./parts/border-measures.json";
+import sourcesPart from "./parts/info-sources.json";
+
+const dataset = {
+  ...outbreakPart,
+  ...epidemicPart,
+  ...announcementsPart,
+  ...borderPart,
+  ...sourcesPart,
+} as any;
 
 export type RiskLevel = "low" | "medium" | "high";
 
@@ -53,7 +72,10 @@ export type Announcement = {
   severity: "info" | "advisory" | "action";
 };
 
-export const ANNOUNCEMENTS: Announcement[] = dataset.announcements as Announcement[];
+// 按日期倒序（最新在前）；同日按 id 稳定排序
+export const ANNOUNCEMENTS: Announcement[] = (dataset.announcements as Announcement[])
+  .slice()
+  .sort((a, b) => (a.date === b.date ? a.id.localeCompare(b.id) * -1 : b.date.localeCompare(a.date)));
 
 // Border / travel measures (subset of announcements, structured for the dedicated page)
 export type BorderMeasure = {
@@ -66,7 +88,10 @@ export type BorderMeasure = {
   source: string;
 };
 
-export const BORDER_MEASURES: BorderMeasure[] = dataset.borderMeasures as BorderMeasure[];
+// 按生效日期倒序（最新在前）
+export const BORDER_MEASURES: BorderMeasure[] = (dataset.borderMeasures as BorderMeasure[])
+  .slice()
+  .sort((a, b) => b.effectiveDate.localeCompare(a.effectiveDate));
 
 // Information sources — 3-tier model
 export type SourceTier = 1 | 2 | 3;
@@ -82,7 +107,10 @@ export type InfoSource = {
   url?: string;
 };
 
-export const INFO_SOURCES: InfoSource[] = dataset.infoSources as InfoSource[];
+// 按最近更新时间倒序
+export const INFO_SOURCES: InfoSource[] = (dataset.infoSources as InfoSource[])
+  .slice()
+  .sort((a, b) => b.lastUpdate.localeCompare(a.lastUpdate));
 
 export const HUB_STATUS = dataset.hubStatus as Array<{
   hub: string;
