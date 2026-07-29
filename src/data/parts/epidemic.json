@@ -1,0 +1,218 @@
+{
+  "countryDaily": [
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-04-12",
+      "cumCases": 2,
+      "cumDeaths": 0
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-04-19",
+      "cumCases": 8,
+      "cumDeaths": 1
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-04-26",
+      "cumCases": 22,
+      "cumDeaths": 3
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-05-03",
+      "cumCases": 45,
+      "cumDeaths": 6
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-05-10",
+      "cumCases": 72,
+      "cumDeaths": 10
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-05-17",
+      "cumCases": 95,
+      "cumDeaths": 13
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-05-24",
+      "cumCases": 121,
+      "cumDeaths": 17
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-05-30",
+      "cumCases": 133,
+      "cumDeaths": 19
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-06-07",
+      "cumCases": 285,
+      "cumDeaths": 52
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-06-14",
+      "cumCases": 660,
+      "cumDeaths": 155
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-06-21",
+      "cumCases": 1094,
+      "cumDeaths": 277
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-06-28",
+      "cumCases": 1333,
+      "cumDeaths": 399
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-07-05",
+      "cumCases": 1624,
+      "cumDeaths": 521
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-07-12",
+      "cumCases": 1792,
+      "cumDeaths": 625
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-07-19",
+      "cumCases": 2473,
+      "cumDeaths": 999
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-07-26",
+      "cumCases": 3262,
+      "cumDeaths": 1437
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-05-15",
+      "cumCases": 1,
+      "cumDeaths": 0
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-05-22",
+      "cumCases": 4,
+      "cumDeaths": 0
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-05-29",
+      "cumCases": 9,
+      "cumDeaths": 1
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-05-30",
+      "cumCases": 9,
+      "cumDeaths": 1
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-06-07",
+      "cumCases": 14,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-06-14",
+      "cumCases": 18,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-06-21",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-06-28",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-07-05",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-07-12",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-07-19",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-07-26",
+      "cumCases": 20,
+      "cumDeaths": 2
+    },
+    {
+      "country": "刚果（金）",
+      "iso": "COD",
+      "date": "2026-07-27",
+      "cumCases": 3372,
+      "cumDeaths": 1497
+    },
+    {
+      "country": "乌干达",
+      "iso": "UGA",
+      "date": "2026-07-27",
+      "cumCases": 20,
+      "cumDeaths": 2
+    }
+  ],
+  "focusCountries": [
+    "刚果（金）",
+    "乌干达"
+  ]
+}
