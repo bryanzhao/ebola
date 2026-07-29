@@ -119,6 +119,17 @@ export const HUB_STATUS = dataset.hubStatus as Array<{
   level: RiskLevel;
 }>;
 
+// 综合研判结论（由 AI 基于 outbreak/epidemic/announcements/border-measures 综合生成）
+export const JUDGMENT = dataset.judgment as {
+  level: RiskLevel;
+  label: string;
+  headline: string;
+  paragraphs: string[];
+  escalationPaths: string[];
+  mitigatingFactors: string[];
+  updatedAt: string;
+};
+
 // ============================================================
 // 各国每日疫情数据 (weekly snapshots since outbreak start)
 // ============================================================
