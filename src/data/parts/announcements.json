@@ -199,18 +199,6 @@
       "severity": "action"
     },
     {
-      "id": "ug-moh-20260716",
-      "date": "2026-07-16",
-      "country": "乌干达",
-      "region": "非洲",
-      "agency": "卫生部",
-      "category": "疫情通报",
-      "title": "乌干达出院最后一例确诊患者，启动42天清零倒计时",
-      "summary": "最后一名患者在Mulago国家转诊隔离中心两次检测阴性后出院；乌干达呼吁各国取消埃博拉相关旅行限制。",
-      "url": "https://health.go.ug/uganda-discharges-last-ebola-patient-begins-42-day-countdown-towards-declaring-the-outbreak-over/",
-      "severity": "advisory"
-    },
-    {
       "id": "who-don-20260717",
       "date": "2026-07-17",
       "country": "全球",
@@ -324,6 +312,18 @@
       "title": "JKIA机场启用埃博拉筛查协议",
       "summary": "重点监测来自Entebbe与Goma的航班。",
       "severity": "advisory"
+    },
+    {
+      "id": "ug-moh-end-20260728",
+      "date": "2026-07-28",
+      "country": "乌干达",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "疫情通报",
+      "title": "乌干达正式宣布2026年埃博拉疫情结束",
+      "summary": "42天强化监测完成，无新发病例。累计20例确诊，18人康复，2人死亡（均为输入）。乌干达成为当前Bundibugyo疫情中首个宣布清零的国家。",
+      "url": "https://mediacentre.go.ug/press-room/uganda-declares-the-end-of-the-2026-ebola-disease-outbreak-s9m4",
+      "severity": "action"
     }
   ]
 }
