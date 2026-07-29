@@ -68,27 +68,27 @@ function BorderMeasuresPage() {
           <table className="w-full text-sm">
             <thead className="bg-surface text-xs uppercase tracking-wider text-muted-foreground">
               <tr>
-                <th className="px-5 py-3 text-left font-medium">国家 / 地区</th>
-                <th className="px-5 py-3 text-left font-medium">区域</th>
-                <th className="px-5 py-3 text-left font-medium">措施</th>
-                <th className="px-5 py-3 text-left font-medium">状态</th>
-                <th className="px-5 py-3 text-left font-medium">生效日期</th>
-                <th className="px-5 py-3 text-left font-medium">说明</th>
-                <th className="px-5 py-3 text-left font-medium">信息源</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">国家 / 地区</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">区域</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">措施</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">状态</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">生效日期</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">说明</th>
+                <th className="whitespace-nowrap px-5 py-3 text-left font-medium">信息源</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
               {BORDER_MEASURES.map((m, i) => (
                 <tr key={i}>
-                  <td className="px-5 py-3 font-semibold text-foreground">{m.country}</td>
-                  <td className="px-5 py-3 text-muted-foreground">{m.region}</td>
-                  <td className="px-5 py-3">
+                  <td className="whitespace-nowrap px-5 py-3 font-semibold text-foreground">{m.country}</td>
+                  <td className="whitespace-nowrap px-5 py-3 text-muted-foreground">{m.region}</td>
+                  <td className="whitespace-nowrap px-5 py-3">
                     <span className={cn("inline-block rounded-sm border px-2 py-0.5 text-xs font-medium", MEASURE_STYLE[m.measure])}>
                       {m.measure}
                     </span>
                   </td>
-                  <td className={cn("px-5 py-3 text-xs font-semibold uppercase tracking-wider", STATUS_STYLE[m.status])}>{m.status}</td>
-                  <td className="px-5 py-3 font-mono text-xs text-muted-foreground">{m.effectiveDate}</td>
+                  <td className={cn("whitespace-nowrap px-5 py-3 text-xs font-semibold uppercase tracking-wider", STATUS_STYLE[m.status])}>{m.status}</td>
+                  <td className="whitespace-nowrap px-5 py-3 font-mono text-xs text-muted-foreground">{m.effectiveDate}</td>
                   <td className="px-5 py-3 text-muted-foreground">{m.detail}</td>
                   <td className="px-5 py-3 text-xs text-muted-foreground">{m.source}</td>
                 </tr>
