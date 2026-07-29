@@ -1,15 +1,28 @@
 # 数据文件说明
 
-平台采用「前端 / 数据分离」结构：
+平台采用「前端 / 数据分离」结构，数据按主题拆分到 `parts/` 下的多份 JSON：
 
-- `dataset.json` —— **唯一可编辑数据源**。你只需要修改这一份文件。
-- `seed.ts` —— 只负责加载 JSON、暴露类型、派生 `newCases` / `newDeaths` / `cfr`。**不要**手工往里塞数值。
+- `parts/outbreak.json`        —— 疫情基础信息、`globalRisk`、KPI、研判维度、触发条件、枢纽
+- `parts/epidemic.json`        —— `countryDaily`（各国每日累计）、`focusCountries`
+- `parts/announcements.json`   —— 公告时间线
+- `parts/border-measures.json` —— 边境与旅行措施
+- `parts/info-sources.json`    —— 三层信息源
+- `seed.ts` —— 只负责合并加载、暴露类型、派生 `newCases` / `newDeaths` / `cfr`、以及**按日期倒序**排序。**不要**手工塞数值。
+
+> 每个 part 可以交给不同 AI 独立更新，互不影响。
 
 ## 更新流程
 
-1. 打开 `src/data/dataset.json`，直接改数值 / 增删记录。
+1. 打开 `parts/` 下对应主题的 JSON，直接改数值 / 增删记录。
 2. 保存后 Vite 会热更新，页面自动刷新。
-3. 页面设计、布局、样式均由代码控制，不受数据变化影响。
+3. 页面按最新日期倒序展示，不需要手工排序。
+
+## 数据校验硬性要求
+
+- **每日必录**：`countryDaily` 中每个国家（`focusCountries` 列表）从 `outbreak.startDate` 到 `outbreak.snapshotDate` **每一天都必须有一条记录**。仅当当天官方明确没有更新时，可跳过并在提交说明中列出跳过日期与依据链接。
+- **累计单调**：同一国家的 `cumCases` / `cumDeaths` 随日期只能非递减。
+- **公告尽量按天**：`announcements` 力求覆盖每一个自然日的重要更新；确认某日无公开公告时才可空缺。
+- **列表倒序**：数据文件本身无需排序，`seed.ts` 会在加载时按日期倒序。
 
 ## 字段速查
 
