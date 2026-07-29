@@ -242,12 +242,11 @@ function DailyBriefPage() {
             <div className="mb-1 font-medium">升级触发条件检查：</div>
             <ul className="space-y-1">
               {TRIGGERS.map((t) => (
-                <li key={t.id} className="flex gap-2 leading-6">
-                  <span className={t.triggered ? "text-destructive" : "text-success"}>
+                <li key={t.id} className="flex items-baseline gap-2 leading-6">
+                  <span className={`shrink-0 whitespace-nowrap ${t.triggered ? "text-destructive" : "text-success"}`}>
                     {t.triggered ? "● 已触发" : "○ 未触发"}
                   </span>
-                  <span className="text-foreground">{t.text}</span>
-                  <span className="text-muted-foreground">— {t.note}</span>
+                  <span className="min-w-0"><span className="text-foreground">{t.text}</span>{" "}<span className="text-muted-foreground">— {t.note}</span></span>
                 </li>
               ))}
             </ul>
