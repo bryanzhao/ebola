@@ -59,7 +59,7 @@ function RiskMatrixPage() {
               ) : (
                 <CheckCircle2 className="mt-0.5 h-4 w-4 text-success shrink-0" />
               )}
-              <div className="flex-1">
+              <div className="min-w-0 flex-1">
                 <div className="text-sm text-foreground">
                   <span className="font-mono text-xs text-muted-foreground mr-2">#{t.id}</span>
                   {t.text}
@@ -67,7 +67,7 @@ function RiskMatrixPage() {
                 <div className="text-xs text-muted-foreground mt-0.5">{t.note}</div>
               </div>
               <span
-                className={`text-[10px] font-semibold uppercase tracking-widest ${
+                className={`shrink-0 whitespace-nowrap text-[10px] font-semibold uppercase tracking-widest ${
                   t.triggered ? "text-destructive" : "text-muted-foreground"
                 }`}
               >
