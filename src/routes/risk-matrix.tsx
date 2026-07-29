@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CheckCircle2, CircleAlert } from "lucide-react";
+import { CheckCircle2, CircleAlert, ArrowUpRight, ShieldCheck } from "lucide-react";
 import { PageShell } from "@/components/PageShell";
 import { RiskBadge } from "@/components/RiskBadge";
-import { RISK_DIMENSIONS, TRIGGERS } from "@/data/seed";
+import { RISK_DIMENSIONS, TRIGGERS, JUDGMENT } from "@/data/seed";
 
 export const Route = createFileRoute("/risk-matrix")({
   head: () => ({
@@ -78,14 +78,58 @@ function RiskMatrixPage() {
         </ul>
       </section>
 
-      <section className="mt-6 rounded-md border border-border bg-card p-5">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-foreground">综合研判 · 输入中国风险</h2>
-        <p className="mt-3 text-sm leading-relaxed text-foreground">
-          当前评估为<strong className="text-warning-foreground"> 低至中等 </strong>。Bundibugyo 型埃博拉无获批疫苗与治疗药物（对策维度高风险），疫情已扩散至乌干达
-          但尚无第三国报告。中国海关总署已于 2026-05-20 发布第 65 号公告启动口岸卫生检疫，非洲直航及中转旅客数量有限。
-          需密切关注的升级路径：疫情扩散至东非更多国家（肯尼亚、坦桑尼亚）或南非；中转枢纽（迪拜、多哈、亚的斯亚贝巴）实施限流；
-          WHO 召开 IHR 紧急委员会评估 PHEIC。
-        </p>
+      <section className="mt-6 rounded-md border border-border bg-card">
+        <header className="flex items-start justify-between gap-4 border-b border-border px-5 py-3">
+          <div>
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-foreground">综合研判 · 输入中国风险</h2>
+            <p className="mt-1 text-xs text-muted-foreground">基于疫情、公告、边境措施与信息源综合评估 · 更新于 {JUDGMENT.updatedAt}</p>
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="text-xs text-muted-foreground">综合等级</span>
+            <RiskBadge level={JUDGMENT.level} />
+            <span className="text-sm font-semibold text-foreground">{JUDGMENT.label}</span>
+          </div>
+        </header>
+
+        <div className="px-5 py-4 border-b border-border">
+          <p className="text-sm leading-relaxed text-foreground font-medium">{JUDGMENT.headline}</p>
+          <div className="mt-3 space-y-2">
+            {JUDGMENT.paragraphs.map((p, i) => (
+              <p key={i} className="text-sm leading-relaxed text-muted-foreground">{p}</p>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border">
+          <div className="px-5 py-4">
+            <div className="flex items-center gap-2 mb-3">
+              <ArrowUpRight className="h-4 w-4 text-destructive" />
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">风险升级路径</h3>
+            </div>
+            <ul className="space-y-2">
+              {JUDGMENT.escalationPaths.map((t, i) => (
+                <li key={i} className="flex gap-2 text-sm text-muted-foreground">
+                  <span className="text-destructive shrink-0">•</span>
+                  <span>{t}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="px-5 py-4">
+            <div className="flex items-center gap-2 mb-3">
+              <ShieldCheck className="h-4 w-4 text-success" />
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">缓释因素</h3>
+            </div>
+            <ul className="space-y-2">
+              {JUDGMENT.mitigatingFactors.map((t, i) => (
+                <li key={i} className="flex gap-2 text-sm text-muted-foreground">
+                  <span className="text-success shrink-0">•</span>
+                  <span>{t}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
     </PageShell>
   );
