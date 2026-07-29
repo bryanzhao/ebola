@@ -19,7 +19,7 @@ function Dashboard() {
   return (
     <PageShell
       eyebrow="总览 DASHBOARD"
-      title="当前疫情态势"
+      title="埃博拉疫情态势"
       description={`监测对象：${OUTBREAK.pathogen}（${OUTBREAK.region}）· 数据截至 ${OUTBREAK.snapshotDate}`}
     >
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">

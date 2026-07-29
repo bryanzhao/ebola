@@ -18,7 +18,7 @@ function RiskMatrixPage() {
   return (
     <PageShell
       eyebrow="RISK MATRIX"
-      title="输入性风险研判矩阵"
+      title="风险研判矩阵"
       description="综合疫情严重度、地理扩散度、边境管控力度与对策可用性四个维度，按 IHR 2005 框架对当前疫情进行评估。"
     >
       <div className="overflow-hidden rounded-md border border-border bg-card">
