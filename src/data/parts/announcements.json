@@ -386,6 +386,18 @@
       "severity": "advisory"
     },
     {
+      "id": "mu-cabinet-20260606",
+      "date": "2026-06-06",
+      "country": "毛里求斯",
+      "region": "非洲",
+      "agency": "内阁",
+      "category": "入境限制",
+      "title": "毛里求斯内阁声明：21天内到访三国者禁止入境",
+      "summary": "6月6日内阁会议后声明：此前21天内到访、经停或停留刚果（金）/乌干达/南苏丹者禁止入境；持有效工作/居留/职业许可或商务/学生签证者例外可入境但须21天强制隔离；口岸强制健康筛查，症状相符者立即隔离评估；卫生部强化主动监测与接触者跟踪。",
+      "url": "https://www.aa.com.tr/en/health/mauritius-bans-entry-of-travelers-from-dr-congo-uganda-south-sudan-over-ebola-concerns/3958544",
+      "severity": "action"
+    },
+    {
       "id": "africacdc-blanket-20260608",
       "date": "2026-06-08",
       "country": "非洲联盟",
@@ -407,6 +419,18 @@
       "title": "Disease Outbreak News: Ebola – DRC & Uganda (DON606)",
       "summary": "疫情持续扩散中。确诊病例数快速上升，传播已扩展至新卫生区。",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606",
+      "severity": "advisory"
+    },
+    {
+      "id": "tt-mfa-20260610",
+      "date": "2026-06-10",
+      "country": "特立尼达和多巴哥",
+      "region": "北美",
+      "agency": "外交部",
+      "category": "旅行建议",
+      "title": "特立尼达官方通告：疫区入境者强化筛查与21天监测",
+      "summary": "6月10日外交部官方通告：强烈建议本国国民避免前往刚果（金）等疫区国家；21天内到访或经停三国的公民/居民入境时强化健康筛查并21天主动监测，视筛查结果由口岸卫生当局实施隔离或检疫。",
+      "url": "https://foreign.gov.tt/resources/news/official-travel-advisory-ebola-bundibugyo-virus-disease-outbreak-in-central-and-east-africa/",
       "severity": "advisory"
     },
     {
@@ -465,6 +489,18 @@
       "category": "疫情通报",
       "title": "法国确诊首例Bundibugyo埃博拉输入病例",
       "summary": "一名从DRC返回的ALIMA无国界医生确诊感染BDBV；患者病毒载量极低，情况稳定，已于7月4日康复出院；5名低风险航班接触者完成21天随访，无续发。",
+      "severity": "action"
+    },
+    {
+      "id": "sa-weqaya-20260626",
+      "date": "2026-06-26",
+      "country": "沙特阿拉伯",
+      "region": "中东",
+      "agency": "公共卫生局 (Weqaya)",
+      "category": "入境限制",
+      "title": "沙特暂停三国签证与入境并扩大邻国入境监测",
+      "summary": "Weqaya声明：暂停公民赴刚果（金）/乌干达/南苏丹旅行并停发一切类别签证（含副朝签）；21天内停留或经停三国者禁止入境（含经第三国中转）；对卢旺达/布隆迪/坦桑尼亚/刚果（布）入境旅客扩大健康监测；境内无确诊或疑似病例。",
+      "url": "https://themedialine.org/headlines/saudi-arabia-suspends-travel-and-visas-for-3-african-nations-over-ebola-concerns/",
       "severity": "action"
     },
     {
@@ -844,7 +880,7 @@
       "category": "入境限制",
       "title": "CDC将埃博拉入境禁令再延长30天并新增公民航班限制",
       "summary": "8月12日17:00 ET生效；续禁21天内到访DRC/Uganda/南苏丹的外国公民入境；新增：21天内到访DRC的美国公民/国民不得搭乘赴美商业航班。",
-      "url": "https://www.fragomen.com/insights/united-states-cdc-extends-entry-ban-for-foreign-nationals-recently-in-dr-congo-uganda-or-south-sudan-for-an-additional-30-days-and-adds-us-citizen-travel-restrictions.html",
+      "url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
       "severity": "action"
     },
     {
@@ -858,18 +894,6 @@
       "summary": "一男子自Haut-Uele旅行后在Bas-Uele首府Buta死亡；Kaseya警告若不遏制疫情将持续超一年并成为全球最大疫情；政府数据4,566例确诊、2,128例死亡。",
       "url": "https://www.aljazeera.com/news/2026/8/13/dr-congo-ebola-outbreak-spreads-to-a-sixth-province",
       "severity": "action"
-    },
-    {
-      "id": "fragomen-compile-20260813",
-      "date": "2026-08-13",
-      "country": "全球",
-      "region": "全球",
-      "agency": "Fragomen汇编",
-      "category": "入境限制",
-      "title": "全球埃博拉入境限制汇编更新",
-      "summary": "汇编确认：阿联酋自6月6日暂停三疫源国签证并限制入境；卡塔尔、科威特、以色列、黎巴嫩、沙特、毛里求斯、卢旺达、库拉索、中国台湾地区实施入境禁令；菲律宾、泰国、特立尼达和多巴哥实施增强筛查；乌干达维持对DRC航班暂停。",
-      "url": "https://www.fragomen.com/insights/middle-eastafrica-temporary-ebola-related-entry-restrictions-introduced.html",
-      "severity": "advisory"
     }
   ]
 }
