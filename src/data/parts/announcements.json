@@ -1,259 +1,6 @@
 {
   "announcements": [
     {
-      "id": "noinfo-20260412",
-      "date": "2026-04-12",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260413",
-      "date": "2026-04-13",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260414",
-      "date": "2026-04-14",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260415",
-      "date": "2026-04-15",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260416",
-      "date": "2026-04-16",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260417",
-      "date": "2026-04-17",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260418",
-      "date": "2026-04-18",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260419",
-      "date": "2026-04-19",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260420",
-      "date": "2026-04-20",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260421",
-      "date": "2026-04-21",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260422",
-      "date": "2026-04-22",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260423",
-      "date": "2026-04-23",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260424",
-      "date": "2026-04-24",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260425",
-      "date": "2026-04-25",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260426",
-      "date": "2026-04-26",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260427",
-      "date": "2026-04-27",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260428",
-      "date": "2026-04-28",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260429",
-      "date": "2026-04-29",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260430",
-      "date": "2026-04-30",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260501",
-      "date": "2026-05-01",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260502",
-      "date": "2026-05-02",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260503",
-      "date": "2026-05-03",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260504",
-      "date": "2026-05-04",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "who-alert-20260505",
       "date": "2026-05-05",
       "country": "全球",
@@ -263,105 +10,6 @@
       "title": "WHO接获刚果（金）东北部高死亡率不明疾病警报",
       "summary": "WHO接到刚果（金）Ituri省Mongbwalu卫生区出现高死亡率不明疾病的报告，已派员协助调查。后续基因组测序确认为Bundibugyo型埃博拉病毒。",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260506",
-      "date": "2026-05-06",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260507",
-      "date": "2026-05-07",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260508",
-      "date": "2026-05-08",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260509",
-      "date": "2026-05-09",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260510",
-      "date": "2026-05-10",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260511",
-      "date": "2026-05-11",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260512",
-      "date": "2026-05-12",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260513",
-      "date": "2026-05-13",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260514",
-      "date": "2026-05-14",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "drc-moh-declare-20260515",
@@ -412,17 +60,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260519",
-      "date": "2026-05-19",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "cn-customs-20260520",
       "date": "2026-05-20",
       "country": "中国",
@@ -456,17 +93,6 @@
       "summary": "建议加强跨境协作、监测与防备；不建议实施旅行或贸易限制。",
       "url": "https://www.who.int/news/item/22-05-2026-first-meeting-of-the-ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-and-uganda-2026-temporary-recommendations",
       "severity": "action"
-    },
-    {
-      "id": "noinfo-20260523",
-      "date": "2026-05-23",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "ukhsa-week21-20260524",
@@ -617,39 +243,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260530",
-      "date": "2026-05-30",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260531",
-      "date": "2026-05-31",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260601",
-      "date": "2026-06-01",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "cdc-mmwr-20260602",
       "date": "2026-06-02",
       "country": "全球",
@@ -660,28 +253,6 @@
       "summary": "截至6月2日，DRC与乌干达累计378例确诊、63例死亡。首次正式描述本轮Bundibugyo疫情流行病学特征。",
       "url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7522e3.htm",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260603",
-      "date": "2026-06-03",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260604",
-      "date": "2026-06-04",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "africa-cdc-plan-20260605",
@@ -707,17 +278,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260607",
-      "date": "2026-06-07",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "who-don-20260608",
       "date": "2026-06-08",
       "country": "全球",
@@ -728,50 +288,6 @@
       "summary": "疫情持续扩散中。确诊病例数快速上升，传播已扩展至新卫生区。",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260609",
-      "date": "2026-06-09",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260610",
-      "date": "2026-06-10",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260611",
-      "date": "2026-06-11",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260612",
-      "date": "2026-06-12",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "who-don-20260613",
@@ -786,61 +302,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260614",
-      "date": "2026-06-14",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260615",
-      "date": "2026-06-15",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260616",
-      "date": "2026-06-16",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260617",
-      "date": "2026-06-17",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260618",
-      "date": "2026-06-18",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "who-don-20260619",
       "date": "2026-06-19",
       "country": "全球",
@@ -853,50 +314,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260620",
-      "date": "2026-06-20",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260621",
-      "date": "2026-06-21",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260622",
-      "date": "2026-06-22",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260623",
-      "date": "2026-06-23",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "fr-spf-20260624",
       "date": "2026-06-24",
       "country": "法国",
@@ -906,72 +323,6 @@
       "title": "法国确诊首例Bundibugyo埃博拉输入病例",
       "summary": "一名从DRC返回的ALIMA无国界医生确诊感染BDBV；患者病毒载量极低，情况稳定，已于7月4日康复出院；5名低风险航班接触者完成21天随访，无续发。",
       "severity": "action"
-    },
-    {
-      "id": "noinfo-20260625",
-      "date": "2026-06-25",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260626",
-      "date": "2026-06-26",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260627",
-      "date": "2026-06-27",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260628",
-      "date": "2026-06-28",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260629",
-      "date": "2026-06-29",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260630",
-      "date": "2026-06-30",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "cidrap-20260701",
@@ -1021,50 +372,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260704",
-      "date": "2026-07-04",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260705",
-      "date": "2026-07-05",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260706",
-      "date": "2026-07-06",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260707",
-      "date": "2026-07-07",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "un-news-20260708",
       "date": "2026-07-08",
       "country": "全球",
@@ -1089,17 +396,6 @@
       "severity": "advisory"
     },
     {
-      "id": "noinfo-20260709",
-      "date": "2026-07-09",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "cdc-evac-20260710",
       "date": "2026-07-10",
       "country": "美国",
@@ -1110,28 +406,6 @@
       "summary": "一名为国际人道组织工作的美国公民在DRC检测阳性，于7月13日医疗撤离至法兰克福大学医院。",
       "url": "https://www.cdc.gov/media/releases/2026/cdc-ebola-outbreak-in-democratic-republic-of-congo-and-uganda.html",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260711",
-      "date": "2026-07-11",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260712",
-      "date": "2026-07-12",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "oxford-vaccine-20260713",
@@ -1158,39 +432,6 @@
       "severity": "action"
     },
     {
-      "id": "noinfo-20260714",
-      "date": "2026-07-14",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260715",
-      "date": "2026-07-15",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
-      "id": "noinfo-20260716",
-      "date": "2026-07-16",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "who-don-20260717",
       "date": "2026-07-17",
       "country": "全球",
@@ -1201,17 +442,6 @@
       "summary": "DRC累计确诊2,124例死亡828例（CFR 39%），46个卫生区受影响，Ituri占89.6%；乌干达最后一例6月21日确诊，7月16日出院进入42天倒计时。",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260718",
-      "date": "2026-07-18",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "un-geneva-20260719",
@@ -1236,17 +466,6 @@
       "summary": "对过去21天内到访过DRC的人员全面禁止入境；对乌干达和南苏丹特定旅客实施限制。",
       "url": "https://www.canada.ca/en/public-health/services/catmat/ebola-virus-disease-preventive-measures-monitoring-surveillance-travellers.html",
       "severity": "action"
-    },
-    {
-      "id": "noinfo-20260721",
-      "date": "2026-07-21",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "africa-cdc-brief-20260722",
@@ -1284,17 +503,6 @@
       "severity": "action"
     },
     {
-      "id": "noinfo-20260725",
-      "date": "2026-07-25",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
-    },
-    {
       "id": "drc-moh-20260726",
       "date": "2026-07-26",
       "country": "刚果（金）",
@@ -1305,17 +513,6 @@
       "summary": "Ituri省2,901例（89%）、1,207死；North Kivu 314例、204死；Haut-Uele 38例、21死；Tshopo 5例、4死；South Kivu 3例、1死。723人住院隔离中。",
       "url": "https://insp.cd/wp-content/uploads/2026/07/SitRep_MVE_RDC_N%C2%B0_73_26-07-2026.pdf",
       "severity": "advisory"
-    },
-    {
-      "id": "noinfo-20260727",
-      "date": "2026-07-27",
-      "country": "—",
-      "region": "全球",
-      "agency": "平台监测",
-      "category": "疫情通报",
-      "title": "此日无新增信息",
-      "summary": "本日未监测到来自WHO、各国卫生部、CDC等主要信息源的新公告或重大疫情更新。",
-      "severity": "info"
     },
     {
       "id": "ug-moh-end-20260728",
@@ -1340,6 +537,150 @@
       "summary": "尽管监测和流行病学仍存在显著缺口，EU/EEA居民感染可能性极低；ECDC持续密切监测。",
       "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "severity": "info"
+    },
+    {
+      "id": "who-don614-20260801",
+      "date": "2026-08-01",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO",
+      "category": "疫情通报",
+      "title": "Disease Outbreak News: BVD – DRC (DON614)",
+      "summary": "截至7月30日刚果（金）累计确诊3,605例、死亡1,587例（CFR 44%），49个卫生区受影响，成为该国史上最大埃博拉疫情；第30流行病学周报告567例确诊、296例死亡为单周最高；151名医护感染、44人死亡。",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+      "severity": "action"
+    },
+    {
+      "id": "africacdc-khub-20260804",
+      "date": "2026-08-04",
+      "country": "刚果（金）",
+      "region": "非洲",
+      "agency": "Africa CDC",
+      "category": "疫情通报",
+      "title": "Africa CDC态势报告：DRC确诊3,973例、死亡1,801例（8月4日）",
+      "summary": "CFR 45.3%；Ituri 3,460例/1,464死（87.1%）；North Kivu 436例/292死（CFR 67%）；674人住院隔离，Nizi等治疗中心达233%满载；医护感染154例；接触者随访率75.3%。",
+      "url": "https://khub.africacdc.org/records/resource/bundibugyo-virus-disease-outbreak-situational-report-august-42026",
+      "severity": "advisory"
+    },
+    {
+      "id": "who-africacdc-scaleup-20260806",
+      "date": "2026-08-06",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO / Africa CDC",
+      "category": "应对部署",
+      "title": "WHO与Africa CDC联合呼吁紧急扩大应对规模",
+      "summary": "谭德塞与Kaseya访问DRC东部与乌干达后联合呼吁：DRC确诊4,053例、死亡1,850例，日均新增约75例；超70%新病例来自社区而非接触者名单；要求每日接触者随访率达95%以上。",
+      "url": "https://www.cidrap.umn.edu/ebola/who-africa-cdc-urge-scale-efforts-contain-ebola-outbreak",
+      "severity": "action"
+    },
+    {
+      "id": "tagcvp-ervebo-20260807",
+      "date": "2026-08-07",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO TAG-CVP",
+      "category": "应对部署",
+      "title": "TAG-CVP建议将Ervebo优先纳入III期随机试验",
+      "summary": "7月31日第三次会议更新共识：在缺乏可评估的BDBV特异性疫苗期间，建议Ervebo（rVSV-ZEBOV）免II期直接纳入疫情中的III期随机研究；Gavi储备50万剂Ervebo可供调拨。",
+      "url": "https://www.who.int/publications/i/item/B09865",
+      "severity": "advisory"
+    },
+    {
+      "id": "whoafro-sr13-20260809",
+      "date": "2026-08-09",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO非洲区办",
+      "category": "疫情通报",
+      "title": "每周外部情况报告第13期：DRC确诊4,381例、死亡2,011例（8月9日）",
+      "summary": "CFR 45.9%；宣布疫情86天后死亡突破2,000；Ituri占累计病例85.8%、死亡80.6%。",
+      "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-4",
+      "severity": "advisory"
+    },
+    {
+      "id": "nature-medicine-20260810",
+      "date": "2026-08-10",
+      "country": "全球",
+      "region": "全球",
+      "agency": "Nature Medicine",
+      "category": "疫情通报",
+      "title": "基因组研究：2026年疫情为新发动物源性外溢事件",
+      "summary": "基于刚果（金）与乌干达22个样本的全基因组分析显示，本疫情病毒形成独立于2007年与2012年疫情的新分支，支持新的人畜共患外溢而非旧毒株复燃。",
+      "url": "https://www.nature.com/articles/s41591-026-04628-8",
+      "severity": "advisory"
+    },
+    {
+      "id": "ap-2000deaths-20260811",
+      "date": "2026-08-11",
+      "country": "刚果（金）",
+      "region": "非洲",
+      "agency": "AP",
+      "category": "疫情通报",
+      "title": "刚果（金）埃博拉死亡突破2,000，为史上增长最快疫情",
+      "summary": "政府数据（8月11日发布）：确诊4,381例、死亡2,011例；从首例到2,000死较2014-16西非疫情快约3倍；首个1,000死约9周、随后约3周翻倍；测序显示病毒2月即已传播。",
+      "url": "https://apnews.com/article/congo-ebola-outbreak-2316ac0838e4383ea443584adc267136",
+      "severity": "action"
+    },
+    {
+      "id": "ap-tedros-20260812",
+      "date": "2026-08-12",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO",
+      "category": "疫情通报",
+      "title": "谭德塞：疫情按当前速度将超越史上最致命疫情",
+      "summary": "WHO总干事8月12日警告，按当前速度本疫情将超越2014-2016年西非疫情（逾11,000人死亡）；已致逾2,000人死亡、4,300余例病例。",
+      "url": "https://apnews.com/article/congo-ebola-outbreak-africa-who-d9bb9bfa9816e278ba36a2382334d65f",
+      "severity": "advisory"
+    },
+    {
+      "id": "drc-moh-20260812",
+      "date": "2026-08-12",
+      "country": "刚果（金）",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "疫情通报",
+      "title": "刚果（金）日通报（数据截至8月11日）：确诊4,566例、死亡2,128例",
+      "summary": "ECDC 8月13日援引：较前日新增117例确诊、67例死亡；570人住院隔离；53/140个卫生区受影响；接触者随访率82.4%。",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "severity": "advisory"
+    },
+    {
+      "id": "cdc-extend-20260812",
+      "date": "2026-08-12",
+      "country": "美国",
+      "region": "北美",
+      "agency": "US CDC",
+      "category": "入境限制",
+      "title": "CDC将埃博拉入境禁令再延长30天并新增公民航班限制",
+      "summary": "8月12日17:00 ET生效；续禁21天内到访DRC/Uganda/南苏丹的外国公民入境；新增：21天内到访DRC的美国公民/国民不得搭乘赴美商业航班。",
+      "url": "https://www.fragomen.com/insights/united-states-cdc-extends-entry-ban-for-foreign-nationals-recently-in-dr-congo-uganda-or-south-sudan-for-an-additional-30-days-and-adds-us-citizen-travel-restrictions.html",
+      "severity": "action"
+    },
+    {
+      "id": "aj-province6-20260813",
+      "date": "2026-08-13",
+      "country": "刚果（金）",
+      "region": "非洲",
+      "agency": "Africa CDC",
+      "category": "疫情通报",
+      "title": "疫情扩散至第六省Bas-Uele",
+      "summary": "一男子自Haut-Uele旅行后在Bas-Uele首府Buta死亡；Kaseya警告若不遏制疫情将持续超一年并成为全球最大疫情；政府数据4,566例确诊、2,128例死亡。",
+      "url": "https://www.aljazeera.com/news/2026/8/13/dr-congo-ebola-outbreak-spreads-to-a-sixth-province",
+      "severity": "action"
+    },
+    {
+      "id": "fragomen-compile-20260813",
+      "date": "2026-08-13",
+      "country": "全球",
+      "region": "全球",
+      "agency": "Fragomen汇编",
+      "category": "入境限制",
+      "title": "全球埃博拉入境限制汇编更新",
+      "summary": "汇编确认：阿联酋自6月6日暂停三疫源国签证并限制入境；卡塔尔、科威特、以色列、黎巴嫩、沙特、毛里求斯、卢旺达、库拉索、中国台湾地区实施入境禁令；菲律宾、泰国、特立尼达和多巴哥实施增强筛查；乌干达维持对DRC航班暂停。",
+      "url": "https://www.fragomen.com/insights/middle-eastafrica-temporary-ebola-related-entry-restrictions-introduced.html",
+      "severity": "advisory"
     }
   ]
 }
