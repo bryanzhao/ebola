@@ -48,6 +48,30 @@
       "severity": "action"
     },
     {
+      "id": "burundi-moh-20260516",
+      "date": "2026-05-16",
+      "country": "布隆迪",
+      "region": "非洲",
+      "agency": "公共卫生部",
+      "category": "增强筛查",
+      "title": "布隆迪提升边境埃博拉防控：Gatumba口岸体温检查",
+      "summary": "5月16日卫生部声明将本轮疫情列为高输入风险；5月18日起Gatumba等口岸对入境者测温、含氯水洗手并发放口罩；境内无确诊。",
+      "url": "https://breakingburundi.com/burundi-tightens-ebola-prevention-measures-at-border-with-drc/",
+      "severity": "advisory"
+    },
+    {
+      "id": "tz-moh-20260518",
+      "date": "2026-05-18",
+      "country": "坦桑尼亚",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "增强筛查",
+      "title": "坦桑尼亚发布旅行通告：对乌干达与刚果（金）入境旅客强化筛查",
+      "summary": "5月18日旅行通告宣布对来自乌干达与刚果（金）的入境旅客实施强化健康筛查；7月基戈马湖港测温作业仍在执行（FCDO与SABC记载）。",
+      "url": "https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements",
+      "severity": "advisory"
+    },
+    {
       "id": "netec-guidance-20260518",
       "date": "2026-05-18",
       "country": "美国",
@@ -95,6 +119,30 @@
       "severity": "action"
     },
     {
+      "id": "rw-moh-20260522",
+      "date": "2026-05-22",
+      "country": "卢旺达",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "入境限制",
+      "title": "卢旺达：30天内到访或经停刚果（金）的外国人拒绝入境",
+      "summary": "即时生效：30天内到访或经停刚果（金）的外国人拒绝入境；卢旺达公民与持有效居留证明的外国居民可入境但须强制隔离；基加利机场与陆路口岸同步强化筛查。",
+      "url": "https://www.moh.gov.rw/news-detail/notice-on-enhanced-ebola-prevention-measures",
+      "severity": "action"
+    },
+    {
+      "id": "eg-moh-20260524",
+      "date": "2026-05-24",
+      "country": "埃及",
+      "region": "非洲",
+      "agency": "卫生与人口部",
+      "category": "旅行建议",
+      "title": "埃及提升全口岸检疫并建议公民推迟赴疫区非必要旅行",
+      "summary": "5月24日声明：建议公民推迟赴埃博拉疫区非必要旅行；空海陆全部口岸加强检疫，对来自受影响国家的入境者强化筛查并21天健康监测。",
+      "url": "https://sis.gov.eg/en/media-center/news/egypt-advises-citizens-to-postpone-travel-to-ebola-hit-regions-amid-global-alert/",
+      "severity": "advisory"
+    },
+    {
       "id": "ukhsa-week21-20260524",
       "date": "2026-05-24",
       "country": "英国",
@@ -116,6 +164,18 @@
       "title": "西部边境启用11个卫生检查点并部署应急团队",
       "summary": "尚无确诊病例；与DRC边境加强联防。",
       "severity": "action"
+    },
+    {
+      "id": "mx-moh-20260525",
+      "date": "2026-05-25",
+      "country": "墨西哥",
+      "region": "北美",
+      "agency": "卫生部",
+      "category": "增强筛查",
+      "title": "墨西哥机场加强埃博拉入境筛查",
+      "summary": "卫生部长于5月25日宣布各机场加强埃博拉相关入境健康筛查（半岛电视台5月28日汇总报道）。",
+      "url": "https://www.aljazeera.com/news/2026/5/28/ebola-outbreak-what-travel-restrictions-have-countries-imposed",
+      "severity": "advisory"
     },
     {
       "id": "us-cdc-thn-20260526",
@@ -219,6 +279,18 @@
       "severity": "advisory"
     },
     {
+      "id": "th-moph-20260527",
+      "date": "2026-05-27",
+      "country": "泰国",
+      "region": "亚洲",
+      "agency": "卫生部",
+      "category": "增强筛查",
+      "title": "泰国：来自疫区旅客仅限素万那普机场入境并强制21天隔离",
+      "summary": "5月27日18:00起将刚果（金）/乌干达列为疫区；来自或经停两国的旅客仅限曼谷素万那普入境，强制健康申报；无症状者隔离21天（自离开疫区起算）。",
+      "url": "https://www.evaair.com/en-us/about-eva-air/news/travel-news/2026-05-25-restrictions-regarding-ebola-virus-disease.html",
+      "severity": "action"
+    },
+    {
       "id": "who-sage-20260528",
       "date": "2026-05-28",
       "country": "全球",
@@ -241,6 +313,30 @@
       "summary": "刚果（金）累计确诊133例死亡19例；乌干达确诊9例死亡1例。",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605",
       "severity": "advisory"
+    },
+    {
+      "id": "cn-medical-team-20260601",
+      "date": "2026-06-01",
+      "country": "中国",
+      "region": "亚洲",
+      "agency": "国家卫生健康委",
+      "category": "应对部署",
+      "title": "援刚果（金）中国抗疫医疗专家组启程",
+      "summary": "新华社6月1日电：首批援刚果（金）抗疫医疗专家组6月2日凌晨自北京启程，协助疫区防控并面向当地医疗机构、中资企业与海外公民开展防疫培训。",
+      "url": "http://www.news.cn/world/20260601/70796a56e6dc442f8b3ac8209f2b7640/c.html",
+      "severity": "info"
+    },
+    {
+      "id": "tw-cdc-20260602",
+      "date": "2026-06-02",
+      "country": "中国台湾地区",
+      "region": "亚洲",
+      "agency": "疾管署",
+      "category": "入境限制",
+      "title": "中国台湾地区：6月2日起暂停刚果（金）与乌干达居民入境90天",
+      "summary": "6月2日00:00起暂停两国居民入境与相关签证发放90天，已获签者暂缓入境；学位生、公务、台籍配偶与未成年子女、人道计划四类豁免；台籍与居留证持有者到访疫区返台后21天自主健康管理。",
+      "url": "https://www.evaair.com/en-us/about-eva-air/news/travel-news/2026-05-25-restrictions-regarding-ebola-virus-disease.html",
+      "severity": "action"
     },
     {
       "id": "cdc-mmwr-20260602",
@@ -266,6 +362,18 @@
       "severity": "action"
     },
     {
+      "id": "uae-ncema-20260605",
+      "date": "2026-06-05",
+      "country": "阿联酋",
+      "region": "中东",
+      "agency": "NCEMA / ICP",
+      "category": "入境限制",
+      "title": "阿联酋：6月6日起暂停三国公民新签证并限制疫区旅客入境",
+      "summary": "6月5日公告、6月6日13:00生效：暂停刚果（金）/乌干达/南苏丹公民新签证发放；来自三国旅客禁止入境（离境超21天者除外），含经第三国中转；中转航班与货机运营不受影响。",
+      "url": "https://www.dubaieye1038.com/news/local/uae-suspends-visa-issuance-for-ebola-hit-drc-uganda-south-sudan/",
+      "severity": "action"
+    },
+    {
       "id": "who-risk-20260606",
       "date": "2026-06-06",
       "country": "全球",
@@ -275,6 +383,18 @@
       "title": "WHO完成第三次快速风险评估：DRC风险极高，邻国风险高",
       "summary": "将DRC风险上调至极高；乌干达维持高风险；与疫区接壤国家风险上调至高；全球风险维持低。",
       "url": "https://www.who.int/publications/m/item/who-rapid-risk-assessment-ebola-disease-caused-by-bundibugyo-virus--democratic-republic-of-the-congo--uganda-and-countries-with-land-borders-adjoining-countries-with-documented-bdbv-detection-v3",
+      "severity": "advisory"
+    },
+    {
+      "id": "africacdc-blanket-20260608",
+      "date": "2026-06-08",
+      "country": "非洲联盟",
+      "region": "非洲",
+      "agency": "Africa CDC",
+      "category": "旅行建议",
+      "title": "Africa CDC发布临时指导：反对一刀切旅行禁令",
+      "summary": "6月8日临时指导：一刀切旅行禁令缺乏科学证据且会阻碍响应；建议成员国以基于风险的筛查、口岸监测与区域协作取代广泛旅行禁令。",
+      "url": "https://khub.africacdc.org/records/resource/interim-guidance-on-blanket-travel-restrictions-following-the-bundibugyo-ebola-virus-disease-outbreak",
       "severity": "advisory"
     },
     {
@@ -290,6 +410,18 @@
       "severity": "advisory"
     },
     {
+      "id": "africacdc-ecg-20260611",
+      "date": "2026-06-11",
+      "country": "非洲联盟",
+      "region": "非洲",
+      "agency": "Africa CDC ECG",
+      "category": "应对部署",
+      "title": "ECG建议11个高风险国及邻国加强离境筛查、勿实施旅行禁令",
+      "summary": "应急咨询组建议11个高风险国与刚果（金）邻国加强离境筛查而非实施禁令；欧盟追加承诺1150万欧元，美国追加2000万美元用于周边国防备（覆盖布隆迪、肯尼亚、卢旺达、南苏丹）。",
+      "url": "https://www.cidrap.umn.edu/ebola/africa-cdc-urges-stronger-ebola-exit-screenings-member-state-borders",
+      "severity": "advisory"
+    },
+    {
       "id": "who-don-20260613",
       "date": "2026-06-13",
       "country": "全球",
@@ -299,6 +431,17 @@
       "title": "Disease Outbreak News: Ebola – DRC & Uganda (DON607)",
       "summary": "疫情持续恶化。Ituri省仍是震中，部分卫生区首次报告确诊病例。",
       "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607",
+      "severity": "advisory"
+    },
+    {
+      "id": "za-health-20260615",
+      "date": "2026-06-15",
+      "country": "南非",
+      "region": "非洲",
+      "agency": "国家卫生部",
+      "category": "增强筛查",
+      "title": "南非发布旅行者警报：对疫区入境者实施健康筛查",
+      "summary": "国家卫生部旅行者警报：自刚果（金）/乌干达入境南非的旅客须接受健康筛查；官方首发日期未见公开，暂以最早可查证据日期记录。",
       "severity": "advisory"
     },
     {
@@ -432,6 +575,18 @@
       "severity": "action"
     },
     {
+      "id": "whoafro-ug-count-20260716",
+      "date": "2026-07-16",
+      "country": "乌干达",
+      "region": "非洲",
+      "agency": "WHO 非洲区办",
+      "category": "疫情通报",
+      "title": "乌干达进入疫情结束42天倒计时",
+      "summary": "7月16日最后一名确诊患者二次阴性出院，乌干达进入42天倒计时；累计20例确诊、2例死亡（15例输入、5例本地）；836名接触者全部完成随访；若倒计时内再现输入病例则清零重计。",
+      "url": "https://www.afro.who.int/countries/uganda/news/uganda-begins-countdown-end-ebola-outbreak",
+      "severity": "advisory"
+    },
+    {
       "id": "who-don-20260717",
       "date": "2026-07-17",
       "country": "全球",
@@ -453,6 +608,17 @@
       "title": "联合国日内瓦新闻发布会: DRC累计确诊2,423例/967例死亡",
       "summary": "DRC政府截至7月19日数据。五省受影响，疫情为有记录以来增长最快。",
       "url": "https://www.unognewsroom.org/story/en/3205/drc-ebola-update-who",
+      "severity": "advisory"
+    },
+    {
+      "id": "ug-moh-lift-20260719",
+      "date": "2026-07-19",
+      "country": "乌干达",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "旅行建议",
+      "title": "乌干达呼吁各国取消埃博拉相关旅行负面警示",
+      "summary": "乌干达政府呼吁各国取消埃博拉相关旅行负面警示与入境限制；发布时值疫情结束42天倒计时期间。",
       "severity": "advisory"
     },
     {
@@ -563,6 +729,17 @@
       "severity": "advisory"
     },
     {
+      "id": "state-usd-20260805",
+      "date": "2026-08-05",
+      "country": "美国",
+      "region": "北美",
+      "agency": "US Department of State",
+      "category": "应对部署",
+      "title": "美国宣布拟追加2.42亿美元埃博拉应对资金",
+      "summary": "8月5日国务院更新：拟与国会协作追加2.42亿美元用于埃博拉应对与防备；并维持对刚果（金）、乌干达、南苏丹的Level 4旅行建议。",
+      "severity": "info"
+    },
+    {
       "id": "who-africacdc-scaleup-20260806",
       "date": "2026-08-06",
       "country": "全球",
@@ -596,6 +773,18 @@
       "title": "每周外部情况报告第13期：DRC确诊4,381例、死亡2,011例（8月9日）",
       "summary": "CFR 45.9%；宣布疫情86天后死亡突破2,000；Ituri占累计病例85.8%、死亡80.6%。",
       "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-4",
+      "severity": "advisory"
+    },
+    {
+      "id": "cidrap-who-feb-20260810",
+      "date": "2026-08-10",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO 非洲区办",
+      "category": "疫情通报",
+      "title": "WHO：埃博拉病毒2月中旬即已传播，早期病例被误诊为疟疾或伤寒",
+      "summary": "WHO非洲区办主任Janabi：基因组测序显示病毒自2月中旬即已传播，最初检测未能识别本迪布焦亚型；日均新增75至80例，接触者随访率75%，低于控制所需的95%。",
+      "url": "https://www.cidrap.umn.edu/ebola/who-ebola-outbreak-began-february-deaths-near-2000",
       "severity": "advisory"
     },
     {
