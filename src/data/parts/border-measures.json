@@ -39,11 +39,11 @@
     {
       "country": "卢旺达",
       "region": "非洲",
-      "measure": "增强筛查",
+      "measure": "入境禁令",
       "status": "已实施",
-      "effectiveDate": "2026-05-25",
-      "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
-      "source": "卫生部"
+      "effectiveDate": "2026-08-13",
+      "detail": "30天内到访或经停刚果（金）者暂停入境；卢旺达公民与永久居民获准入境但须强制隔离",
+      "source": "卫生部 / Fragomen汇编"
     },
     {
       "country": "韩国",
@@ -78,26 +78,26 @@
       "measure": "入境禁令",
       "status": "已实施",
       "effectiveDate": "2026-07-20",
-      "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
-      "source": "US CDC / White House / Federal Register"
+      "detail": "CDC联邦命令持续有效：8月12日再延长30天；21天内到访DRC/Uganda/南苏丹的非公民禁止入境；新增限制——21天内到访DRC的美国公民/国民不得搭乘赴美商业航班",
+      "source": "US CDC / Federal Register"
     },
     {
       "country": "阿联酋 (迪拜)",
       "region": "中东",
-      "measure": "增强筛查",
-      "status": "关注中",
-      "effectiveDate": "2026-05-27",
-      "detail": "中转枢纽，启用体温与症状筛查未限流",
-      "source": "MoHAP"
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-06-06",
+      "detail": "自6月6日起暂停签发刚果（金）/乌干达/南苏丹公民新签证（含访问签证）；21天内到访上述国家者禁止入境，含经第三国中转者",
+      "source": "MoHAP / Fragomen汇编"
     },
     {
       "country": "卡塔尔 (多哈)",
       "region": "中东",
-      "measure": "健康申报",
-      "status": "关注中",
-      "effectiveDate": "2026-05-27",
-      "detail": "中转枢纽，健康申报未限流",
-      "source": "MoPH"
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；卡塔尔公民与居民除外",
+      "source": "MoPH / Fragomen汇编"
     },
     {
       "country": "新加坡 (樟宜)",
@@ -120,10 +120,10 @@
     {
       "country": "乌干达",
       "region": "非洲",
-      "measure": "常态运营",
-      "status": "已结束",
+      "measure": "航班暂停",
+      "status": "已实施",
       "effectiveDate": "2026-07-28",
-      "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+      "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；仍维持与刚果（金）间航班暂停及跨境客运（含Semliki渡轮）限制；边境维持警惕以防DRC输入",
       "source": "卫生部 / Uganda Media Centre"
     },
     {
@@ -168,8 +168,98 @@
       "measure": "入境禁令",
       "status": "已实施",
       "effectiveDate": "2026-07-20",
-      "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+      "detail": "全面禁止21天内到访DRC的人员入境（措施有效期至8月29日）；对乌干达和南苏丹特定旅客实施限制",
       "source": "PHAC"
+    },
+    {
+      "country": "科威特",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境，含经停、中转及间接路线；科威特公民除外",
+      "source": "MoH / Fragomen汇编"
+    },
+    {
+      "country": "以色列",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；以色列公民与居民除外",
+      "source": "MoH / Fragomen汇编"
+    },
+    {
+      "country": "黎巴嫩",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "刚果（金）与乌干达公民禁止入境",
+      "source": "Fragomen汇编"
+    },
+    {
+      "country": "沙特阿拉伯",
+      "region": "中东",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "暂停本国公民赴刚果（金）/乌干达/南苏丹旅行；停发相关签证；21天内到访上述国家者禁止入境",
+      "source": "MoH / Fragomen汇编"
+    },
+    {
+      "country": "毛里求斯",
+      "region": "非洲",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "21天内到访或经停刚果（金）/南苏丹/乌干达的商务与旅游旅客禁止入境；公民、永久居民、工签/学签持有人及配偶例外但须21天隔离",
+      "source": "Fragomen汇编"
+    },
+    {
+      "country": "菲律宾",
+      "region": "亚洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "21天内到访刚果（金）/南苏丹/乌干达者入境医学筛查；有暴露史者21天强制隔离；无症状且无暴露史者21天社区健康随访",
+      "source": "检疫局 / Fragomen汇编"
+    },
+    {
+      "country": "中国台湾地区",
+      "region": "亚洲",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "刚果（金）与乌干达公民及居民禁止入境；持台湾证件者、居留证持有人、在学学位生、配偶与未成年子女及人道例外除外",
+      "source": "Fragomen汇编"
+    },
+    {
+      "country": "泰国",
+      "region": "亚洲",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "来自刚果（金）/乌干达的旅客与机组须经曼谷素万那普机场入境；接受每日医学筛查或最长21天隔离",
+      "source": "Fragomen汇编"
+    },
+    {
+      "country": "特立尼达和多巴哥",
+      "region": "北美",
+      "measure": "增强筛查",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "到访或来自刚果（金）/南苏丹/乌干达者入境医学筛查并接受21天主动监测；视筛查结果可能立即隔离或检疫",
+      "source": "Fragomen汇编"
+    },
+    {
+      "country": "库拉索",
+      "region": "北美",
+      "measure": "入境禁令",
+      "status": "已实施",
+      "effectiveDate": "2026-08-13",
+      "detail": "安哥拉/刚果（金）/卢旺达/南苏丹/坦桑尼亚/乌干达公民禁止入境，相关签证申请拒发",
+      "source": "Fragomen汇编"
     }
   ],
   "borderMeasuresDaily": [
@@ -10663,6 +10753,3076 @@
           "effectiveDate": "2026-07-20",
           "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
           "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "type": "nochange",
+      "summary": "此日无新增边境措施变更",
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令（7月13日签署，7月20日生效）：暂停来自DRC/Uganda/南苏丹的非公民及21天内到访者入境；有效期至8月12日",
+          "source": "US CDC / White House / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "type": "change",
+      "summary": "美国: 入境禁令延长30天并新增公民航班限制 (已实施)",
+      "changes": [
+        {
+          "country": "美国",
+          "region": "北美",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "禁令于8月12日再延长30天；新增限制——21天内到访DRC的美国公民/国民不得搭乘赴美商业航班",
+          "source": "US CDC / Federal Register"
+        }
+      ],
+      "activeCountries": 19,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "西部边境启用11个卫生检查点并部署应急团队；尚无确诊病例",
+          "source": "卫生部"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令持续有效：8月12日再延长30天；21天内到访DRC/Uganda/南苏丹的非公民禁止入境；新增限制——21天内到访DRC的美国公民/国民不得搭乘赴美商业航班",
+          "source": "US CDC / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，启用体温与症状筛查未限流",
+          "source": "MoHAP"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "健康申报",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，健康申报未限流",
+          "source": "MoPH"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "change",
+      "summary": "阿联酋 (迪拜): 入境禁令 (已实施); 卡塔尔 (多哈): 入境禁令 (已实施); 卢旺达: 入境禁令 (已实施); 科威特: 入境禁令 (已实施); 以色列: 入境禁令 (已实施); 黎巴嫩: 入境禁令 (已实施); 沙特阿拉伯: 入境禁令 (已实施); 毛里求斯: 入境禁令 (已实施); 菲律宾: 增强筛查 (已实施); 中国台湾地区: 入境禁令 (已实施); 泰国: 增强筛查 (已实施); 特立尼达和多巴哥: 增强筛查 (已实施); 库拉索: 入境禁令 (已实施)",
+      "changes": [
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "自6月6日起暂停签发刚果（金）/乌干达/南苏丹公民新签证（含访问签证）；21天内到访上述国家者禁止入境，含经第三国中转者",
+          "source": "MoHAP / Fragomen汇编"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；卡塔尔公民与居民除外",
+          "source": "MoPH / Fragomen汇编"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "30天内到访或经停刚果（金）者暂停入境；卢旺达公民与永久居民获准入境但须强制隔离",
+          "source": "卫生部 / Fragomen汇编"
+        },
+        {
+          "country": "科威特",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境，含经停、中转及间接路线；科威特公民除外",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "以色列",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；以色列公民与居民除外",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "黎巴嫩",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "刚果（金）与乌干达公民禁止入境",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "沙特阿拉伯",
+          "region": "中东",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "暂停本国公民赴刚果（金）/乌干达/南苏丹旅行；停发相关签证；21天内到访上述国家者禁止入境",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "毛里求斯",
+          "region": "非洲",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "21天内到访或经停刚果（金）/南苏丹/乌干达的商务与旅游旅客禁止入境；公民、永久居民、工签/学签持有人及配偶例外但须21天隔离",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "菲律宾",
+          "region": "亚洲",
+          "newMeasure": "增强筛查",
+          "newStatus": "已实施",
+          "detail": "21天内到访刚果（金）/南苏丹/乌干达者入境医学筛查；有暴露史者21天强制隔离；无症状且无暴露史者21天社区健康随访",
+          "source": "检疫局 / Fragomen汇编"
+        },
+        {
+          "country": "中国台湾地区",
+          "region": "亚洲",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "刚果（金）与乌干达公民及居民禁止入境；持台湾证件者、居留证持有人、在学学位生、配偶与未成年子女及人道例外除外",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "泰国",
+          "region": "亚洲",
+          "newMeasure": "增强筛查",
+          "newStatus": "已实施",
+          "detail": "来自刚果（金）/乌干达的旅客与机组须经曼谷素万那普机场入境；接受每日医学筛查或最长21天隔离",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "特立尼达和多巴哥",
+          "region": "北美",
+          "newMeasure": "增强筛查",
+          "newStatus": "已实施",
+          "detail": "到访或来自刚果（金）/南苏丹/乌干达者入境医学筛查并接受21天主动监测；视筛查结果可能立即隔离或检疫",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "库拉索",
+          "region": "北美",
+          "newMeasure": "入境禁令",
+          "newStatus": "已实施",
+          "detail": "安哥拉/刚果（金）/卢旺达/南苏丹/坦桑尼亚/乌干达公民禁止入境，相关签证申请拒发",
+          "source": "Fragomen汇编"
+        }
+      ],
+      "activeCountries": 29,
+      "snapshot": [
+        {
+          "country": "中国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-20",
+          "detail": "海关总署第65号公告，来自DRC/Uganda人员主动健康申报；对有症状者实施医学排查；加强口岸卫生检疫",
+          "source": "海关总署"
+        },
+        {
+          "country": "约旦",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "暂停来自DRC/Uganda的非公民入境；本国公民21天健康监测",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴林",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-24",
+          "detail": "对疫区旅客实施入境限制及强制健康申报",
+          "source": "卫生部"
+        },
+        {
+          "country": "巴哈马",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-05-25",
+          "detail": "21天内到访DRC/Uganda的旅客须申请特别许可方可入境",
+          "source": "卫生部"
+        },
+        {
+          "country": "卢旺达",
+          "region": "非洲",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "30天内到访或经停刚果（金）者暂停入境；卢旺达公民与永久居民获准入境但须强制隔离",
+          "source": "卫生部 / Fragomen汇编"
+        },
+        {
+          "country": "韩国",
+          "region": "亚洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "仁川机场对疫区返回旅客启动健康申报；维持入境，未限流",
+          "source": "KDCA"
+        },
+        {
+          "country": "印度",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "孟买、德里、班加罗尔机场对疫区返回旅客启用症状筛查；未限流",
+          "source": "MoHFW"
+        },
+        {
+          "country": "肯尼亚",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-26",
+          "detail": "Jomo Kenyatta国际机场启用埃博拉筛查协议；重点监测Entebbe与Goma航班",
+          "source": "卫生部"
+        },
+        {
+          "country": "美国",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "CDC联邦命令持续有效：8月12日再延长30天；21天内到访DRC/Uganda/南苏丹的非公民禁止入境；新增限制——21天内到访DRC的美国公民/国民不得搭乘赴美商业航班",
+          "source": "US CDC / Federal Register"
+        },
+        {
+          "country": "阿联酋 (迪拜)",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-06-06",
+          "detail": "自6月6日起暂停签发刚果（金）/乌干达/南苏丹公民新签证（含访问签证）；21天内到访上述国家者禁止入境，含经第三国中转者",
+          "source": "MoHAP / Fragomen汇编"
+        },
+        {
+          "country": "卡塔尔 (多哈)",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；卡塔尔公民与居民除外",
+          "source": "MoPH / Fragomen汇编"
+        },
+        {
+          "country": "新加坡 (樟宜)",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-05-27",
+          "detail": "中转枢纽，症状监测未限流",
+          "source": "MOH"
+        },
+        {
+          "country": "日本",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-05-27",
+          "detail": "成田/羽田机场对疫区航线启用入境检疫；对21天内到访疫区者开展健康追踪",
+          "source": "厚生劳动省"
+        },
+        {
+          "country": "乌干达",
+          "region": "非洲",
+          "measure": "常态运营",
+          "status": "已结束",
+          "effectiveDate": "2026-07-28",
+          "detail": "疫情于7月28日正式宣布结束；政府呼吁各国取消埃博拉相关旅行限制；仍维持与刚果（金）间航班暂停及跨境客运（含Semliki渡轮）限制；边境维持警惕以防DRC输入",
+          "source": "卫生部 / Uganda Media Centre"
+        },
+        {
+          "country": "英国",
+          "region": "欧洲",
+          "measure": "健康申报",
+          "status": "已实施",
+          "effectiveDate": "2026-05-28",
+          "detail": "UKHSA评定对英国风险为低；希思罗机场加强症状监测；建议避免非必要旅行",
+          "source": "UKHSA"
+        },
+        {
+          "country": "法国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-06-24",
+          "detail": "确诊1例输入病例后加强监测；患者已于7月4日康复出院；5名接触者完成随访无续发",
+          "source": "Santé publique France"
+        },
+        {
+          "country": "南苏丹",
+          "region": "非洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-01",
+          "detail": "边境流动人口频繁；国际医疗队支持80个设施强化防备",
+          "source": "ReliefWeb / IMC"
+        },
+        {
+          "country": "德国",
+          "region": "欧洲",
+          "measure": "增强筛查",
+          "status": "关注中",
+          "effectiveDate": "2026-07-13",
+          "detail": "接收2例从DRC医疗撤离的美国公民于法兰克福大学医院治疗；第1例已康复出院",
+          "source": "Bundesgesundheitsministerium"
+        },
+        {
+          "country": "加拿大",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-07-20",
+          "detail": "全面禁止21天内到访DRC的人员入境（措施有效期至8月29日）；对乌干达和南苏丹特定旅客实施限制",
+          "source": "PHAC"
+        },
+        {
+          "country": "科威特",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境，含经停、中转及间接路线；科威特公民除外",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "以色列",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "21天内到访或来自刚果（金）/南苏丹/乌干达者禁止入境；以色列公民与居民除外",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "黎巴嫩",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "刚果（金）与乌干达公民禁止入境",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "沙特阿拉伯",
+          "region": "中东",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "暂停本国公民赴刚果（金）/乌干达/南苏丹旅行；停发相关签证；21天内到访上述国家者禁止入境",
+          "source": "MoH / Fragomen汇编"
+        },
+        {
+          "country": "毛里求斯",
+          "region": "非洲",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "21天内到访或经停刚果（金）/南苏丹/乌干达的商务与旅游旅客禁止入境；公民、永久居民、工签/学签持有人及配偶例外但须21天隔离",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "菲律宾",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "21天内到访刚果（金）/南苏丹/乌干达者入境医学筛查；有暴露史者21天强制隔离；无症状且无暴露史者21天社区健康随访",
+          "source": "检疫局 / Fragomen汇编"
+        },
+        {
+          "country": "中国台湾地区",
+          "region": "亚洲",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "刚果（金）与乌干达公民及居民禁止入境；持台湾证件者、居留证持有人、在学学位生、配偶与未成年子女及人道例外除外",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "泰国",
+          "region": "亚洲",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "来自刚果（金）/乌干达的旅客与机组须经曼谷素万那普机场入境；接受每日医学筛查或最长21天隔离",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "特立尼达和多巴哥",
+          "region": "北美",
+          "measure": "增强筛查",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "到访或来自刚果（金）/南苏丹/乌干达者入境医学筛查并接受21天主动监测；视筛查结果可能立即隔离或检疫",
+          "source": "Fragomen汇编"
+        },
+        {
+          "country": "库拉索",
+          "region": "北美",
+          "measure": "入境禁令",
+          "status": "已实施",
+          "effectiveDate": "2026-08-13",
+          "detail": "安哥拉/刚果（金）/卢旺达/南苏丹/坦桑尼亚/乌干达公民禁止入境，相关签证申请拒发",
+          "source": "Fragomen汇编"
         }
       ]
     }
