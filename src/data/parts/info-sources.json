@@ -5,7 +5,7 @@
       "category": "WHO",
       "tier": 1,
       "frequency": "每6小时",
-      "lastUpdate": "2026-08-13 12:00 UTC",
+      "lastUpdate": "2026-08-14 12:00 UTC",
       "status": "正常",
       "url": "https://www.who.int/emergencies/disease-outbreak-news"
     },
@@ -14,7 +14,7 @@
       "category": "WHO 区域办公室",
       "tier": 1,
       "frequency": "每周 + 6h轮询",
-      "lastUpdate": "2026-08-13 07:00 UTC",
+      "lastUpdate": "2026-08-14 07:00 UTC",
       "status": "正常"
     },
     {
@@ -30,7 +30,7 @@
       "category": "疫区国家",
       "tier": 1,
       "frequency": "每6小时",
-      "lastUpdate": "2026-08-12 00:00 UTC",
+      "lastUpdate": "2026-08-16 00:00 UTC",
       "status": "正常"
     },
     {
@@ -46,7 +46,7 @@
       "category": "北美",
       "tier": 2,
       "frequency": "每日",
-      "lastUpdate": "2026-08-12 21:00 UTC",
+      "lastUpdate": "2026-08-14 21:00 UTC",
       "status": "正常"
     },
     {
@@ -54,7 +54,7 @@
       "category": "欧洲",
       "tier": 2,
       "frequency": "每日",
-      "lastUpdate": "2026-08-13 13:34 UTC",
+      "lastUpdate": "2026-08-14 14:25 UTC",
       "status": "正常"
     },
     {
@@ -118,7 +118,7 @@
       "category": "非洲邻国",
       "tier": 2,
       "frequency": "每日",
-      "lastUpdate": "2026-08-13 16:00 UTC",
+      "lastUpdate": "2026-08-14 16:00 UTC",
       "status": "正常"
     },
     {
@@ -126,7 +126,7 @@
       "category": "中东枢纽",
       "tier": 2,
       "frequency": "每日",
-      "lastUpdate": "2026-08-13 16:00 UTC",
+      "lastUpdate": "2026-08-14 16:00 UTC",
       "status": "正常"
     },
     {
@@ -134,7 +134,7 @@
       "category": "辅助",
       "tier": 3,
       "frequency": "事件驱动",
-      "lastUpdate": "2026-08-13 12:00 UTC",
+      "lastUpdate": "2026-08-14 12:00 UTC",
       "status": "正常"
     },
     {
@@ -142,7 +142,7 @@
       "category": "辅助",
       "tier": 3,
       "frequency": "事件驱动",
-      "lastUpdate": "2026-07-27 14:00 UTC",
+      "lastUpdate": "2026-08-14 14:00 UTC",
       "status": "正常"
     },
     {
