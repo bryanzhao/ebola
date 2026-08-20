@@ -952,6 +952,42 @@
       "severity": "action"
     },
     {
+      "id": "drc-moh-5000-20260817",
+      "date": "2026-08-17",
+      "country": "刚果（金）",
+      "region": "非洲",
+      "agency": "卫生部",
+      "category": "疫情通报",
+      "title": "刚果（金）日通报：累计确诊5,021例、死亡2,378例，突破5,000关口",
+      "summary": "8月17日通报较前日新增确诊76例、死亡53例、康复21例，累计康复超1,000例；非洲疾控中心周一确认病例突破5,000例（病死率趋近50%）；WHO非洲区域办复核口径5,021例/2,378死（病死率47.4%）",
+      "severity": "action",
+      "url": "https://bnonews.com/index.php/2026/08/dr-congo-ebola-cases-top-5000-as-death-toll-rises-to-2378/"
+    },
+    {
+      "id": "nk-ebola-entry-20260817",
+      "date": "2026-08-17",
+      "country": "朝鲜",
+      "region": "亚洲",
+      "agency": "朝鲜当局",
+      "category": "入境限制",
+      "title": "朝鲜对曾到访11个非洲国家及法国的外国人实施入境限制",
+      "summary": "限制曾到访刚果（金）、乌干达、南苏丹、肯尼亚、卢旺达、布隆迪、坦桑尼亚、赞比亚、安哥拉、刚果（布）、中非及法国的外国人入境；俄罗斯旅游业联盟8月14日披露、NK News 8月17日报道，官方公告原文未见公开",
+      "severity": "action",
+      "url": "https://www.nknews.org/2026/08/north-korea-imposes-ebola-related-travel-restrictions-on-foreign-tourists/"
+    },
+    {
+      "id": "ramaphosa-sadc-20260817",
+      "date": "2026-08-17",
+      "country": "南非",
+      "region": "非洲",
+      "agency": "南非总统府",
+      "category": "旅行建议",
+      "title": "拉马福萨呼吁各国避免对埃博拉疫区实施一刀切旅行限制",
+      "summary": "8月17日在德班第46届SADC峰会开幕式呼吁避免歧视性旅行与贸易限制：此类限制缺乏公共卫生证据、损害经济并可能推动人员经不受监控通道跨境流动；并呼吁将认捐资金尽快转化为实地资源",
+      "severity": "advisory",
+      "url": "https://apanews.net/ramaphosa-urges-west-to-drop-blanket-ebola-travel-bans/"
+    },
+    {
       "id": "us-fr-continuation-20260817",
       "date": "2026-08-17",
       "country": "美国",
@@ -961,6 +997,54 @@
       "title": "联邦公报发布延续令，维持暂停疫区访客入境",
       "summary": "8月17日联邦公报发布2026-16706号令：延续暂停曾到访刚果（金）/乌干达/南苏丹的非公民入境，及21天内到访DRC者禁登赴美商业航班（含美国公民/国民）。CDC 8月4日另将Ituri/North Kivu旅行健康提醒升至Level 4。",
       "severity": "action"
+    },
+    {
+      "id": "un-ocha-funding-20260818",
+      "date": "2026-08-18",
+      "country": "全球",
+      "region": "全球",
+      "agency": "UN OCHA",
+      "category": "应对部署",
+      "title": "OCHA为刚果（金）抗疫与邻国防备再拨5,450万美元",
+      "summary": "OCHA已拨款5,450万美元支持刚果（金）响应与邻国防备；MINUSCA为中非共和国提供技术与后勤支持；WHO 8月14日在班吉召集五国会议（中非、刚果（金）、刚果（布）、南苏丹、乌干达），五国同意加强疾病监测与备灾合作",
+      "severity": "advisory",
+      "url": "https://news.un.org/en/story/2026/08/1168154"
+    },
+    {
+      "id": "who-afro-cdc-call-20260818",
+      "date": "2026-08-18",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO / Africa CDC",
+      "category": "应对部署",
+      "title": "WHO与Africa CDC联合呼吁以社区为主导加快疫情应对",
+      "summary": "基于8月4-5日联合高层访问（坎帕拉/布尼亚/金沙萨）提出十项行动：早发现并将接触者随访提至95%以上、诊疗服务下沉、扩充治疗/实验室/安全埋葬能力、按时支付一线人员薪酬等；同时建议各国避免不必要的旅行与贸易限制",
+      "severity": "advisory",
+      "url": "https://platformafrica.com/2026/08/18/africa-cdc-and-who-call-for-urgent-community-led-action-to-contain-ebola-in-the-drc/"
+    },
+    {
+      "id": "who-afro-weekly-20260818",
+      "date": "2026-08-18",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO 非洲区域办",
+      "category": "疫情通报",
+      "title": "WHO非洲区域办周报：确诊5,021例、死亡2,378例（数据截至8月16日）",
+      "summary": "较上一报告新增确诊76例、死亡53例；751人住院隔离、1,061人康复；6省55个卫生区受影响，Ituri省4,257例/1,878死（28/36卫生区），北基伍607例/428死；接触者随访率82.2%；境内病死率47.4%。",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "severity": "advisory"
+    },
+    {
+      "id": "who-ihr2-20260818",
+      "date": "2026-08-18",
+      "country": "全球",
+      "region": "全球",
+      "agency": "WHO",
+      "category": "PHEIC/IHR",
+      "title": "IHR紧急委员会第二次会议确认PHEIC维持，更新版临时建议近日发布",
+      "summary": "会议8月18日召开（主席Lucille Blumberg）；会后谭德塞宣布疫情继续构成国际关注的突发公共卫生事件，面向刚果（金）及风险国家的更新版临时建议将在未来数日发布；谭德塞开场指出疫情为史上第二大、传播速度空前，六省55个卫生区受影响",
+      "severity": "action",
+      "url": "https://www.aa.com.tr/en/africa/who-chief-says-ebola-outbreak-in-dr-congo-remains-public-health-emergency-of-international-concern/4030995"
     }
   ]
 }
